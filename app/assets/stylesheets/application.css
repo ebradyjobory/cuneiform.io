@@ -96,7 +96,8 @@ h2{
 
 #intro{
 	 background-image: url('firstBG.jpg'); 
-	background-repeat:no-repeat fixed;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -104,7 +105,9 @@ h2{
 }
 
 #second{
-	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
+	background-image: url('secondBG.jpg'); 
+	background-repeat:no-repeat;
+	background-attachment: fixed;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -113,7 +116,9 @@ h2{
 }
 
 #second .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
+	background-image: url('trainers.png'); 
+	background-repeat:no-repeat;
+	background-attachment: fixed ;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -123,7 +128,9 @@ h2{
 }
 
 #third{
-	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background-image: url('thirdBG.jpg'); 
+	background-repeat:no-repeat; 
+	background-attachment: fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
