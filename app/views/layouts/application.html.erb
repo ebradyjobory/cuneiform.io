@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Cuneiform</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -16,6 +16,7 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 		$('#nav').localScroll(800);
+		$('.logo').localScroll(800);
 	
 	//.parallax(xPosition, speedFactor, outerHeight) options:
 	//xPosition - Horizontal position of the element
@@ -25,6 +26,8 @@
 	$('#second').parallax("50%", 0.1);
 	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
+	$('#fourth').parallax("50%", 0.3);
+	$('#fifth').parallax("50%", 0.3);
 
 	})
 	</script>
@@ -33,44 +36,46 @@
 <body>
 	<div class="container clearfix">
 
-	<div class="logo">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
+			<div class="grid_2 logo">
+			
+				<a><%= link_to "cuneiform.io", "#second", :class => "" %></a>
+			
+	        </div>
 
-	<ul id="nav" class="grid_8">
+			<div class="grid_2 omega">
 
-		<li><a><%= link_to "ABOUT", "#intro", :class => "" %></a></li>
-	    <li><%= link_to "PROJECTS", "#second", :class => "" %></li>
-		<li><%= link_to "CONTACT", "#third", :class => "" %></li>
-		<!-- <li><%= link_to "ABOUT", "#fifth", :class => "" %></li> -->
-	</ul>
-	
-	<div id="intro">
-		
-	</div> <!--#intro-->
-	
-	<div id="second">
-		
-	    
-	</div> <!--#second-->
-	
-	<div id="third">
-		
+				<ul id="nav">
+					<li><a><%= link_to "about", "#intro", :class => "" %></a></li>
+				    <li><%= link_to "projects", "#second", :class => "" %></li>
+					<li><%= link_to "contact", "#third", :class => "" %></li>
+					<li><%= link_to "gallary", "#fourth", :class => "" %></li> 
+				</ul>
+		    </div>
+			
+			<div id="intro">
+				
+			</div> <!--#intro-->
+			
+			<div id="second">
+				
+			    
+			</div> <!--#second-->
+			
+			<div id="third">
+				
 
-	</div> <!--#third-->
-	
-	<div id="fifth">
-		
-	</div> <!--#fifth-->
+			</div> <!--#third-->
+			
+		 	<div id="fourth">
+				
+			</div> 
 
+			<div id="fifth">
+				
+			</div> 
+
+			
+ 
 </div>
 </body>
 </html>
