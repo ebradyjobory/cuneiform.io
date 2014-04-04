@@ -139,7 +139,6 @@ h2{
 }
 
 #second{
-	background-color: pink;
 	color: white;
 	height: 1300px;
 	margin: 0 auto;
@@ -158,25 +157,26 @@ h2{
 }
 */
 #third{
-	background-color: green;
 	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
+	height: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	
 }
 
-#fifth{
-	background-color: blue;
+/*#fifth{
 	background: #ccc;
 	height: 400px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
-}
+}*/
 #fourth{
-	background-color: blue;
-	background: #ccc;
-	height: 400px;
+	color: white;
+	height: 1300px;
 	margin: 0 auto;
-	padding: 40px 0 0 0;
+	overflow: hidden;
+	padding: 0;
 }
 
 .story{
