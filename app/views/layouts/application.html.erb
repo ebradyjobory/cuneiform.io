@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Cuneiform</title>
-  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -37,13 +37,14 @@
 		<div class="grid_12 navbar">
 			<ul id="nav">
 				<li><%= link_to "logo", "#intro", :class => "" %></li>
-			    <li><%= link_to "projects", "#second", :class => "projects" %></li>
-				<li><%= link_to "contact", "#third", :class => "contact" %></li>
-				<li><%= link_to "gallary", "#fourth", :class => "gallary" %></li> 
+			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
+				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
+				<li><%= link_to "WORK", "#fourth", :class => "gallary" %></li> 
+				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 			</ul>
 	    </div>
  <div class="container clearfix">
-				
+				<div class="grid_8">
 			    <div id="intro">
 					
 					<%= render partial: "home" %>
@@ -73,7 +74,7 @@
 				</div>  -->
 
 			
- 
+ </div>
   </div>
 </body>
 </html>
