@@ -88,30 +88,43 @@ h2{
 #nav{
 	list-style: none;
 	position: fixed;
-	float: left;
-	left: 40px;
-	margin-top: 200px;
-	border-right: 1px solid black;
-	padding-right: 4px;
+	margin-bottom: 10px;
+    text-align: center;
+	background-color: white;
+	opacity:0.4;
+	width: 100%;
+		
+}
 
+.navbar ul {
+	margin-top: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 190px;
+}
+
+#nav li{
+	float: left;		
 }
 
 #nav li a{
 	text-decoration: none;
 	color: black;
 	font-family: 'Poiret One', cursive;
-	font-size: 30px;
-	font-weight: 100;
+	font-size: 20px;
+	font-weight: 900;
+	padding: 7px;
 }
 
 #nav li a:hover {
-	color: white;
+	color: red;
+	border-bottom: solid black;
+	}
+	
+#second a.projects { 
+	 border-bottom: solid black;
 
 	}
-
-#nav li{
-	margin: 0 0 15px 0;	
-}
 
 #header, #intro, #second{
 	width: 100%;
@@ -120,7 +133,7 @@ h2{
 #intro{
 	background-attachment: fixed;
 	color: white;
-	height: 600px;
+	height: 650px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -210,7 +223,7 @@ h2{
 @media (max-width: 480px) {
 
 
-/* Here are the media querries*/
+/* the media querries to be written here*/
 
 
 

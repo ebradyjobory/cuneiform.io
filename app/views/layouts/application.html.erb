@@ -33,45 +33,44 @@
 </head>
 
 <body>
-	<div class="container clearfix">
-
-			<div class="grid_2 logo">
-			
-				<a><%= link_to "cuneiform", "#second", :class => "" %></a>
-			
-	        </div>
-
-			<div class="grid_2 omega">
-
-				<ul id="nav">
-					<!-- <li><a><%= link_to "about", "#intro", :class => "" %></a></li> -->
-				    <li><%= link_to "projects", "#second", :class => "" %></li>
-					<li><%= link_to "contact", "#third", :class => "" %></li>
-					<li><%= link_to "gallary", "#fourth", :class => "" %></li> 
-				</ul>
-		    </div>
-			
-			<div id="intro">
+ 
+		<div class="grid_12 navbar">
+			<ul id="nav">
+				<li><%= link_to "logo", "#intro", :class => "" %></li>
+			    <li><%= link_to "projects", "#second", :class => "projects" %></li>
+				<li><%= link_to "contact", "#third", :class => "contact" %></li>
+				<li><%= link_to "gallary", "#fourth", :class => "gallary" %></li> 
+			</ul>
+	    </div>
+ <div class="container clearfix">
 				
-			</div> <!--#intro-->
+			    <div id="intro">
+					
+					<%= render partial: "home" %>
+					
+				</div> <!--#intro-->
 			
-			<div id="second">
-				
+				<div id="second", class="projects">
+			
+				    <%= render partial: "projects" %>
 			    
-			</div> <!--#second-->
+				</div> <!--#second-->
 			
-			<div id="third">
-				
+				<div id="third">
+					
+				   <%= render partial: "contact" %>
 
-			</div> <!--#third-->
+				</div> <!--#third-->
 			
-		 	<div id="fourth">
+			 	<div id="fourth">
+					
+					<%= render partial: "gallary" %>
 				
-			</div> 
+				</div> 
 
-			<div id="fifth">
+				<div id="fifth">
 				
-			</div> 
+				</div> 
 
 			
  
