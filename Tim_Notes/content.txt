@@ -1,12 +1,36 @@
-Front Page
+collaboration?
+
+/Front Page/
 
 cuneiform
+first world web development for Iraq and Kurdistan Region
+We are an Iraqi-American design and development team focused on bringing the best of the Web to our clients across Iraq and Kurdistan Region.
 
-Who We Are
+/Who We Are/
 
-Portfolio
+We bring more than web development to the table. We have a deep understanding of business strategy
 
-Services
+Together we develop websites, web-based applications, and cloud solutions that are highly accessible on any digital device.
+
+Most of Iraq's web development firms charge thousands of dollars for ready-made templates purchased through a third party. These templates are often clunky and susceptible to security breaches. And they rarely meet clients' needs.
+
+We will work with you to build your project from the ground up, providing a solid foundation for your online presence.
+
+Essam (linkedin Link?)
+
+MBA and MSc in International Finance and Economics
+Former internal auditor for a multinational corporation.
+
+Tim (linkedin link?)
+
+Over two years of experience working with companies in Iraq
+Former management consultant for one of the world's largest management consulting firms
+
+/Portfolio/
+
+/Services/
+
+We offer a complete, comprehensive, and high-quality package of services to meet every need of your online presence.
 
 Web Design (no templates, adaptive and responsive)
 Web Development (HTML, CSS, Ruby on Rails, jQuery)
@@ -15,10 +39,14 @@ Project Management
 Marketing
 Analytics (Traffic, Click Rates, SEO)
 Email
-Customized Web Hosting
-Content Development, Copywriting, Editing, Translation (English, Arabic, Kurdish, Spanish)
+Customized Web Hosting (24/7 support; hosted in the United States)
+Content Development, Copywriting, Editing, Translation (English, Arabic, Kurdish)
 
-Contact
+/Contact/
+
+If you are interested in working with us, please send us an email. We are also available to schedule a phone call or Skype meeting.
+
+hello@cuneiform.io
 
 
 
