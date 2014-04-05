@@ -22,65 +22,6 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
-@charset "utf-8";
-/* CSS Document */
-
-
-
-p{
-	margin: 0 0 20px 0;	
-}
-
-p {
-	font-family: 'Arvo', serif;
-	font-size-adjust:0.488;
-	font-weight:200;
-	font-style:normal;
-	letter-spacing: .1em;
-}
-
-img{
-	border: 0;
-}
-
-/*h1, #pixels{
-	font-family:"Museo 900", Verdana, serif;
-	font-size-adjust:0.40;
-	font-weight:700;
-	font-style:normal;
-}*/
-
-h2{
-	font-family: 'Raleway', sans-serif;
-	font-size-adjust:0.531;
-	font-weight:500;
-	font-style:normal;
-}
-
-#header h1, #pixels{
-	color: #48941A;
-}
-
-.float-left{
-	float: left;	
-	margin: 0 0 0 20px;
-}
-
-.float-right{
-	float: right;
-	margin: 0 20px 0 0;
-}
-
-.center{
-	font-size: 2.5em;
-	padding: 80px 0 0 0;
-	text-align: center;
-}
-
-.hide {
-	display: none;
-}
-
 #nav{
 	list-style: none;
 	position: fixed;
@@ -88,15 +29,14 @@ h2{
     text-align: center;
 	background-color: white;
 	opacity:0.4;
-	width: 100%;
-		
+	width: 100%;		
 }
 
 .navbar ul {
-	margin-top: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 190px;
+	margin-top: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 14%;
 }
 
 #nav li{
@@ -107,9 +47,10 @@ h2{
 	text-decoration: none;
 	color: black;
 	font-family: 'Arvo', serif;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: 900;
-	padding: 7px;
+	padding: 10px;
+	margin: 0%;
 }
 
 #nav li a:hover {
@@ -117,26 +58,44 @@ h2{
 	border-bottom: solid black;
 	}
 	
-#second a.projects { 
-	 border-bottom: solid black;
-
-	}
-
-#header, #intro, #second{
-	width: 100%;
+	
+/* pages content css 
+====================== */
+	
+#home p  {
+ padding: 20% 20% 10% 15%; 
 }
 
-#intro{
-	background: url('background-tigris-4.png') repeat center center fixed;
-	color: white;
-	height: 650px;
-	width: 1400px;
-	margin-left: -110px;
-	margin-top: -10px;
+#contact p  {
+ padding: 20% 20% 10% 15%; 
+ color: white;
 }
+#work p  {
+ padding: 20% 20% 10% 15%; 
+ color: white;
+}
+#services p  {
+ padding: 20% 20% 10% 15%; 
+ color: white;
+}
+
+#about p  {
+ padding: 20% 20% 10% 15%; 
+ color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*===================*/
 
 #second{
-	background: url('background-tigris-4.png') repeat center center fixed;
 	color: white;
 	height: 650px;
 	width: 1400px;
@@ -157,77 +116,35 @@ h2{
 }
 */
 #third{
-	background: url('background-tigris-4.png') repeat center center fixed;
-	color: white;
+	background-color: grey;
 	height: 650px;
 	width: 1400px;
-	margin-left: -110px;
-	margin-top: -10px;
-	color: white;
-
 	
 }
 
 
 #fourth{
-	background: url('background-tigris-4.png') no-repeat  fixed;
-	color: white;
+	background-color: green;
 	height: 650px;
 	width: 1400px;
-	margin-left: -110px;
-	margin-top: -10px;
-	color: white;
 	
 }
+
 #fifth{
-	background: url('background-tigris-4.png') repeat center center fixed;
-	color: white;
+	background-color: pink;
 	height: 650px;
 	width: 1400px;
-	margin-left: -110px;
-	margin-top: -10px;
+}
+
+#intro {
+	background-color: lightblue;
+	background-attachment: fixed;
+	height: 650px;
+	margin-top: -16px;
 	
+		
 }
 
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.story .float-left, .story .float-right{
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 350px;	
-}
-
-/* Cuneiform CSS 
-==================== */
-
-
-.logo a {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: 2px;
-	margin-left: 500px;
-	text-decoration: none;
-	font-size: 50px;
-	color: white;
-
-}
-
-.logo{
-	padding-top: 200px;
-	padding-bottom: 320px;
-
-	
-}
-
-.logo a:hover {
-	color: black;
-	cursor: pointer;
-}
 
 
 @media (max-width: 480px) {
