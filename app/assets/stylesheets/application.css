@@ -25,12 +25,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	margin: 0;
-	min-width: 980px;
-	padding: 0;
-	background-color: #2980b9;
-}
+
 
 p{
 	margin: 0 0 20px 0;	
@@ -132,20 +127,23 @@ h2{
 }
 
 #intro{
-	background-image: url('tigris.jpg');
-	background-attachment: fixed;
+	background: url('background-tigris-4.png') repeat center center fixed;
 	color: white;
 	height: 650px;
-	margin: 0 auto;
-	padding: 0;
+	width: 1400px;
+	margin-left: -110px;
+	margin-top: -10px;
 }
 
 #second{
+	background: url('background-tigris-4.png') repeat center center fixed;
 	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
+	height: 650px;
+	width: 1400px;
+	margin-left: -110px;
+	margin-top: -10px;
+	color: white;
+	
 }
 
 /*#second .bg{
@@ -159,26 +157,36 @@ h2{
 }
 */
 #third{
+	background: url('background-tigris-4.png') repeat center center fixed;
 	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
+	height: 650px;
+	width: 1400px;
+	margin-left: -110px;
+	margin-top: -10px;
+	color: white;
+
 	
 }
 
-/*#fifth{
-	background: #ccc;
-	height: 400px;
-	margin: 0 auto;
-	padding: 40px 0 0 0;
-}*/
+
 #fourth{
+	background: url('background-tigris-4.png') no-repeat  fixed;
 	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
+	height: 650px;
+	width: 1400px;
+	margin-left: -110px;
+	margin-top: -10px;
+	color: white;
+	
+}
+#fifth{
+	background: url('background-tigris-4.png') repeat center center fixed;
+	color: white;
+	height: 650px;
+	width: 1400px;
+	margin-left: -110px;
+	margin-top: -10px;
+	
 }
 
 .story{

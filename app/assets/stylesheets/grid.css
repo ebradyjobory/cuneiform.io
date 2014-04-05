@@ -1,8 +1,8 @@
 /*
  Width: 1500px
- # Columns : 12 
+ # Columns : 12
  Column width: 114px
- Gutter : 12px 
+ Gutter : 12px
  */
 .grid_1 { width: 7.6%; }
 .grid_2 { width: 16.6%; }
@@ -36,13 +36,14 @@
 
 .alpha{margin-left:0px;}
 .omega{margin-right:0px;
-	
+
 }
 
-.container{
-	width: 70%; 
-	margin: auto;
-
+.container {
+    padding-right: 500px;
+    padding-left: 350px;
+    margin-right: auto;
+    margin-left: -50px;
 }
 
 

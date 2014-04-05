@@ -43,8 +43,7 @@
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 			</ul>
 	    </div>
- <div class="container clearfix">
-				<div class="grid_8">
+		<div class="grid_8">
 			    <div id="intro">
 					
 					<%= render partial: "home" %>
@@ -53,28 +52,30 @@
 			
 				<div id="second", class="projects">
 			
-				    <%= render partial: "projects" %>
+				    <%= render partial: "about" %>
 			    
 				</div> <!--#second-->
 			
 				<div id="third">
 					
-				   <%= render partial: "contact" %>
+				   <%= render partial: "services" %>
 
 				</div> <!--#third-->
 			
 			 	<div id="fourth">
 					
-					<%= render partial: "gallary" %>
+					<%= render partial: "work" %>
 				
 				</div> 
 
-				<!-- <div id="fifth">
+				<div id="fifth">
+					
+					<%= render partial: "contact" %>
 				
-				</div>  -->
+				</div> 
 
 			
- </div>
+ 
   </div>
 </body>
 </html>
