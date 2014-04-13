@@ -15,10 +15,6 @@ We bring more than web development to the table. We have a deep understanding of
 
 Together we develop websites, web-based applications, and cloud solutions that are highly accessible on any digital device.
 
-Most of Iraq's web development firms charge thousands of dollars for ready-made templates purchased through a third party. These templates are often clunky and susceptible to security breaches. And they rarely meet clients' needs.
-
-We will work with you to build your project from the ground up, providing a solid foundation for your online presence.
-
 Essam (linkedin Link?)
 
 MBA and MSc in International Finance and Economics
@@ -33,7 +29,10 @@ Former management consultant for one of the world's largest management consultin
 
 /Services/
 
-We offer a complete, comprehensive, and high-quality package of services to meet every need of your online presence.
+Most of Iraq's web development firms charge thousands of dollars for ready-made templates purchased through a third party. These templates are often clunky and susceptible to security breaches. And they rarely meet clients' needs.
+
+We will work with you to build your project from the ground up, providing a solid foundation for your online presence. We offer a complete, comprehensive, and high-quality package of services to meet every need of your online presence.
+
 
 Web Design (no templates, adaptive and responsive)
 Web Development (HTML, CSS, Ruby on Rails, jQuery)

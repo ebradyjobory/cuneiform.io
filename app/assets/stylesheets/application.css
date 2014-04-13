@@ -22,28 +22,34 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
-#nav{
+#nav { 
+	text-align: center;
 	list-style: none;
 	position: fixed;
 	margin-bottom: 10px;
-    text-align: center;
 	background-color: white;
 	opacity:0.4;
 	width: 100%;		
 }
 
-.navbar ul {
-	margin-top: 0%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 14%;
+.logo {
+  margin-left: 20px;
+  margin-top: 1px;
+  padding-bottom: 20px;
 }
 
-#nav li{
+.navbar ul {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-left: 14%;
+    text-align: center;
+}
+
+#nav li {
 	float: left;		
 }
 
-#nav li a{
+#nav li a {
 	text-decoration: none;
 	color: black;
 	font-family: 'Arvo', serif;
@@ -51,11 +57,13 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 900;
 	padding: 10px;
 	margin: 0%;
+	display: block;
 }
 
 #nav li a:hover {
-	color: red;
-	border-bottom: solid black;
+	color: #c0392b;
+	padding-bottom: 5%;
+	border-bottom: solid 5px #3498db;
 	}
 	
 	
@@ -63,7 +71,29 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 ====================== */
 	
 #home p  {
- padding: 20% 20% 10% 15%; 
+	margin: 0;
+	padding: 0% 15% 0% 15%;
+	font-family: 'Arvo', serif;
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.4em;
+	color: #ecf0f1;
+}
+
+#home p span {
+	color: #c0392b;
+}
+
+#home h2 {
+	
+	padding: 15% 10% 0% 15%;
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.4em;
 }
 
 #contact p  {
@@ -79,11 +109,30 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
  color: white;
 }
 
-#about p  {
- padding: 20% 20% 10% 15%; 
- color: white;
+#about h2 {
+	maring: 0;
+	padding: 7% 13% 0% 21.5%;
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.4em;
 }
 
+#about p  {
+	padding: 0% 13% 0% 21.5%;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1.25em;
+ 	font-weight: 300;
+ 	letter-spacing: .1em;
+ 	line-height: 1.4em;
+ 	color: #ecf0f1;
+}
+
+#about h2 span {
+	color: #3498db;
+}
 
 
 
@@ -96,13 +145,12 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 /*===================*/
 
 #second{
-	color: white;
+	background: url('background-tigris-44.png') no-repeat center center fixed;
+	background-size: cover;
 	height: 650px;
 	width: 1400px;
 	margin-left: -110px;
-	margin-top: -10px;
-	color: white;
-	
+	margin-top: -10px;	
 }
 
 /*#second .bg{
@@ -137,8 +185,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #intro {
-	background-color: lightblue;
-	background-attachment: fixed;
+	background: url('background-intro.png') no-repeat center center fixed;
+	background-size: 100% auto;
 	height: 650px;
 	margin-top: -16px;
 	
