@@ -22,50 +22,61 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
-#nav { 
+#nav {
 	text-align: center;
 	list-style: none;
 	position: fixed;
 	background-color: white;
-	opacity:0.4;
-	width: 100%;	
+	opacity: 0.4;
+	width: 100%;
 }
 
 #logo {
-	margin-left: 50px;
+	position: absolute;
+	margin: 1.8% 0 0 11%;
+	position: fixed;
+	z-index: 2;
+
+
 }
 
 .navbar ul {
 	padding-top: 0%;
 	padding-bottom: 0%;
 	padding-left: 14%;
-    text-align: center;
+      text-align: center;
 }
+
 
 #nav li {
-	float: left;	
+	float: left;
+
 }
 
-#nav li a {
-	text-decoration: none;
-	color: black;
-	font-family: 'Arvo', serif;
-	font-size: 1em;
-	font-weight: 900;
-	padding: 10px;
+#nav li  {
+	padding: 1% 1% 1% 1%;
 	display: block;
 }
 
-#nav li a:hover {
+#nav li a {
+	font-family: 'Arvo', serif;
+	font-size: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 8px;
+
+}
+
+#nav a:hover {
 	color: #c0392b;
-	padding-bottom: 5%;
-	border-bottom: solid 5px #3498db;
+      border-bottom: solid 5px #3498db
 	}
-	
-	
-/* pages content css 
+
+
+/* pages content css
 ====================== */
-	
+
 #home p  {
 	margin: 0;
 	padding: 0% 15% 0% 15%;
@@ -82,7 +93,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #home h2 {
-	
+
 	padding: 15% 10% 0% 15%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
@@ -93,15 +104,15 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #contact p  {
- padding: 20% 20% 10% 15%; 
+ padding: 20% 20% 10% 15%;
  color: white;
 }
 #work p  {
- padding: 20% 20% 10% 15%; 
+ padding: 20% 20% 10% 15%;
  color: white;
 }
 #services p  {
- padding: 20% 20% 10% 15%; 
+ padding: 20% 20% 10% 15%;
  color: white;
 }
 
@@ -132,7 +143,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #about-column-container {
 	padding: 4% 9% 0% 13.5%;
-	
+
 }
 
 #about-column {
@@ -226,7 +237,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #services-column-container {
 	padding: 2% 21% 0% 13.5%;
-	
+
 }
 
 #services-column-container:before {
@@ -304,7 +315,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	padding: 0% 21% 0% 13.5%;
-	
+
 }
 
 #contact h3 span {
@@ -315,31 +326,32 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 
 /*===================*/
+#intro {
+	background: url('background-intro.png') no-repeat  fixed;
+     background-size: 100% 106%;
+     -moz-background-size: 100% 106%;
+	-webkit-background-size: 100% 106%;
+	-o-background-size: 100% 106%;
+	height: 650px;
+	margin-top: -16px;
+
+}
 
 #second{
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	height: 650px;
-	width: 1400px;
+
 	margin-left: -110px;
-	margin-top: -10px;	
+	margin-top: -10px;
 }
 
-/*#second .bg{
-	
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-*/
+
 #third{
 	background-color: grey;
 	height: 650px;
-	width: 1400px;
-	
+
+
 }
 
 
@@ -347,23 +359,17 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	background-color: green;
 	height: 650px;
 	width: 1400px;
-	
+
 }*/
 
 #fifth{
 	background-color: #2c3e50;
 	height: 650px;
-	width: 1400px;
+
 }
 
-#intro {
-	background: url('background-intro.png') no-repeat center center fixed;
-	background-size: 100% auto;
-	height: 650px;
-	margin-top: -16px;
-	
-		
-}
+
+
 
 
 
