@@ -26,7 +26,7 @@
 	$('#second').parallax("50%", 0.1);
 	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
-	$('#fourth').parallax("50%", 0.3);
+	// $('#fourth').parallax("50%", 0.3);
 	$('#fifth').parallax("50%", 0.3);
 	})
 	</script>
@@ -34,12 +34,14 @@
 <body>
 		
 		<div class="navbar">
+			<div id="logo">
+				<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => "gallery"), root_path %>
+			</div>
 			
 			<ul id="nav">
-				<li><%= link_to image_tag("cuneiform-logo.png", :size => "40x40", :alt => 'logo', :class => "gallery"), root_path %></li>
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
-				<li><%= link_to "WORK", "#fourth", :class => "gallary" %></li> 
+				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 			</ul>
 	    </div>
@@ -62,11 +64,11 @@
 
 				</div> <!--#third-->
 			
-			 	<div id="fourth">
+			 	<!-- <div id="fourth">
 					
 					<%= render partial: "work" %>
 				
-				</div> 
+				</div>  -->
 
 				<div id="fifth">
 					
