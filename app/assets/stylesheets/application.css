@@ -79,7 +79,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #home p  {
 	margin: 0;
-	padding: 0% 15% 0% 15%;
+	padding: 0% 15% 0% 21.75%;
 	font-family: 'Arvo', serif;
 	font-size: 2em;
 	font-weight: 400;
@@ -94,7 +94,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #home h2 {
 
-	padding: 15% 10% 0% 15%;
+	padding: 15% 10% 1% 21.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -118,7 +118,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #about h2 {
 	maring: 0;
-	padding: 7% 13% 0% 21.5%;
+	padding: 5% 14.75% 0% 21.5%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -128,7 +128,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #about p  {
-	padding: 0% 13% 0% 21.5%;
+	padding: 0% 14.75% 0% 21.5%;
  	font-family: 'Lato', sans-serif;
  	font-size: 1.25em;
  	font-weight: 300;
@@ -142,7 +142,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #about-column-container {
-	padding: 4% 9% 0% 13.5%;
+	padding: 4% 9% 0% 14.75%;
 
 }
 
@@ -158,6 +158,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	text-align: center;
+	padding-left: -10%;
 }
 
 #about-column p {
@@ -176,12 +177,12 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #ecf0f1;
 	font-weight: 400;
 	letter-spacing: .1em;
-	padding-left: 10%;
+	padding-left: 1%;
 	padding-bottom: 1%;
 }
 
 #about-column img {
-	padding-left: 45%;
+	padding-left: 44%;
 	margin-bottom: -5%;
 }
 
@@ -207,7 +208,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #services h2 {
 	maring: 0;
-	padding: 7% 21% 0% 13.5%;
+	padding: 5% 14.75% 0% 14.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -217,7 +218,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #services p  {
-	padding: 0% 21% 0% 13.5%;
+	padding: 0% 14.75% 0% 14.75%;
  	font-family: 'Lato', sans-serif;
  	font-size: 1.25em;
  	font-weight: 300;
@@ -236,7 +237,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #services-column-container {
-	padding: 2% 21% 0% 13.5%;
+	padding: 2% 14.75% 0% 14.75%;
 
 }
 
@@ -279,7 +280,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #contact h2 {
 	maring: 0;
-	padding: 7% 21% 0% 13.5%;
+	padding: 5% 21% 0% 14.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -290,7 +291,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #contact p  {
 	margin: 0;
-	padding: .5% 21% 2% 13.5%;
+	padding: .5% 21% 2% 14.75%;
  	font-family: 'Lato', sans-serif;
  	font-size: 1.25em;
  	font-weight: 300;
@@ -314,12 +315,12 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #ecf0f1;
 	font-weight: 400;
 	letter-spacing: .1em;
-	padding: 0% 21% 0% 13.5%;
+	padding: 0% 21% 0% 14.75%;
 
 }
 
 #contact h3 span {
-	color: #c0392b;
+	color: #3498db;
 	line-height: 3em;
 	font-size: .8em;
 }
@@ -327,29 +328,30 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 /*===================*/
 #intro {
-	background: url('background-intro.png') no-repeat  fixed;
-     background-size: 100% 106%;
-     -moz-background-size: 100% 106%;
-	-webkit-background-size: 100% 106%;
-	-o-background-size: 100% 106%;
+	background: url('background-intro.png') no-repeat fixed;
+	background-size: cover;
 	height: 650px;
+	margin-left: -110px;
 	margin-top: -16px;
-
+	padding-bottom: 2%;
 }
 
 #second{
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	height: 650px;
-
 	margin-left: -110px;
 	margin-top: -10px;
+	padding-bottom: 2%;
 }
 
 
 #third{
-	background-color: grey;
+	background: url('background-intro.png') no-repeat fixed;
+	background-size: cover;
 	height: 650px;
+	margin-left: 0px;
+	margin-top: -16px;
 
 
 }
@@ -363,9 +365,10 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }*/
 
 #fifth{
-	background-color: #2c3e50;
+	background: url('background-tigris-44.png') no-repeat center center fixed;
+	background-size: cover;
 	height: 650px;
-
+	margin-left: 0px;
 }
 
 
