@@ -167,7 +167,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-family: 'Droid Arabic Kufi', serif !important;
 	letter-spacing: 1px !important;
     margin-right: 1.3%;
-	padding: 15% 10.6% 1% 21.75%;
+	padding: 15% 11% 1% 21.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -192,7 +192,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-family: 'Droid Arabic Kufi', serif !important;
 	letter-spacing: 1px !important;
 	margin-right: 0%;
-	padding: 0% 11.5% 0% 21.75%;
+	padding: 0% 12% 0% 21.75%;
 	font-size: 2em;
 	font-weight: 400;
 	line-height: 1.4em;
@@ -224,7 +224,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #about h2 {
-	maring: 0;
+	margin: 0;
 	padding: 5% 14.75% 0% 21.5%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
@@ -232,9 +232,33 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	line-height: 1.4em;
+
+}
+
+#about-ar h2 {
+	margin: 0;
+	padding: 5% 11% 0% 21.5%;
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.4em;
+	direction: rtl;
+	letter-spacing: 1px 
 }
 
 #about p  {
+	padding: 0% 14.75% 0% 21.5%;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1.25em;
+ 	font-weight: 300;
+ 	letter-spacing: .1em;
+ 	line-height: 1.4em;
+ 	color: #ecf0f1;
+}
+
+#about-ar p  {
 	padding: 0% 14.75% 0% 21.5%;
  	font-family: 'Lato', sans-serif;
  	font-size: 1.25em;
@@ -248,12 +272,26 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #3498db;
 }
 
+#about-ar h2 span {
+	color: #3498db;
+}
+
 #about-column-container {
 	padding: 4% 9% 0% 14.75%;
 
 }
 
+#about-column-container-ar {
+	padding: 4% 9% 0% 14.75%;
+
+}
+
 #about-column {
+	width: 50%;
+	float: left;
+}
+
+#about-column-ar {
 	width: 50%;
 	float: left;
 }
@@ -267,6 +305,16 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	text-align: center;
 	padding-left: -10%;
 }
+#about-column-ar h2 {
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #c0392b;
+	font-weight: 400;
+	letter-spacing: .1em;
+	text-align: center;
+	padding-left: -10%;
+	direction: rtl;
+}
 
 #about-column p {
 	color: #ecf0f1;
@@ -275,6 +323,16 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #ecf0f1;
 	font-weight: 300;
 	letter-spacing: .1em;
+}
+
+#about-column-ar p {
+	color: #ecf0f1;
+	font-size: .8em;
+	font-family: 'Lato', sans-serif;
+	color: #ecf0f1;
+	font-weight: 300;
+	letter-spacing: .1em;
+	direction: rtl;
 }
 
 #about-column h3 {
@@ -288,12 +346,38 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	padding-bottom: 1%;
 }
 
+#about-column-ar h3 {
+	font-family: 'Arvo', serif;
+	font-size: .8em;
+	text-align: center;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	direction: rtl;
+}
+
 #about-column img {
+	padding-left: 44%;
+	margin-bottom: -5%;
+}
+#about-column-ar img {
 	padding-left: 44%;
 	margin-bottom: -5%;
 }
 
 #about-column h2:before {
+	display: inline-block;
+    margin: 0 10px 8px 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #7f8c8d;
+    width: 27%;
+}
+
+#about-column-ar h2:before {
 	display: inline-block;
     margin: 0 10px 8px 20px;
     height: 1px;
@@ -313,8 +397,18 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     width: 27%;
 }
 
+#about-column-ar h2:after {
+    display: inline-block;
+    margin: 0 20px 8px 10px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #7f8c8d;
+    width: 27%;
+}
+
 #services h2 {
-	maring: 0;
+	margin: 0;
 	padding: 5% 14.75% 0% 14.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;

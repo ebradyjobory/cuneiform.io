@@ -1,20 +1,51 @@
-<div id="about">
-	
-<h2>We are an <span>Iraqi-American</span> design and development team. Together with our clients we develop websites, web-based applications, and cloud solutions that are accessible on <span>any digital device</span>.</h2>
 
-<div id="about-column-container">
-	<div id="about-column">
-		<%=image_tag("essam.png", :size => "100x100", :alt => 'Essam') %>
-		<h2>Essam</h2>
-		<h3>Front and Back-End Development</h3>
-		<p>Former chemist and internal auditor for a multinational corporation. Holds a BSc in Chemistry from the University of Baghdad, an MBA from the American University of Iraq, and an MSc in International Economics &amp; Finance from Valparaiso University in the US.</p>
-		</div>
-	<div id="about-column">
-		<%=image_tag("tim.png", :size => "100x100", :alt => 'Tim') %>
-			<h2>Tim</h2>
-			<h3>Web Design and Cloud Solutions</h3>
-			<p>Former management consultant for one of the world's larget consulting firms where he led the value analysis for health insurance clients on customer experience, front office strategy, and Obamacare reform projects. Over four years of experience working with Iraqi companies.</p>
-		</div>
-</div>
+<% if  I18n.locale == :en %>
 
-</div>
+
+	<div id="about">
+		
+	<h2>We are an <span>Iraqi-American</span> design and development team. Together with our clients we develop websites, web-based applications, and cloud solutions that are accessible on <span>any digital device</span>.</h2>
+
+	<div id="about-column-container">
+		<div id="about-column">
+			<%=image_tag("essam.png", :size => "100x100", :alt => 'Essam') %>
+			<h2>Essam</h2>
+			<h3>Front and Back-End Development</h3>
+			<p>Former chemist and internal auditor for a multinational corporation. Holds a BSc in Chemistry from the University of Baghdad, an MBA from the American University of Iraq, and an MSc in International Economics &amp; Finance from Valparaiso University in the US.</p>
+			</div>
+		<div id="about-column">
+			<%=image_tag("tim.png", :size => "100x100", :alt => 'Tim') %>
+				<h2>Tim</h2>
+				<h3>Web Design and Cloud Solutions</h3>
+				<p>Former management consultant for one of the world's larget consulting firms where he led the value analysis for health insurance clients on customer experience, front office strategy, and Obamacare reform projects. Over four years of experience working with Iraqi companies.</p>
+			</div>
+	</div>
+
+	</div>
+
+<%else%>
+
+	<div id="about-ar">
+		
+	<h2>نحن فريق <span>عراقي-أمريكي</span> متخصص في تصميم و تطوير المواقع الأكترونية. جنبا إلى جنب مع عملائنا نقرم بتطوير المواقع والتطبيقات على شبكة الإنترنت، وحلول السحابة التي يمكن الوصول إليها بواسطة <span>أي جهاز رقمي</span>.</h2>
+
+	<div id="about-column-container-ar">
+		<div id="about-column-ar">
+			<%=image_tag("essam.png", :size => "100x100", :alt => 'Essam') %>
+			<h2>عصام</h2>
+			<h3>تطوير النهاية الأمامية و الخلفية</h3>
+			<p>كيميائي سابق ومدقق داخلي لشركة كبرى. حاصل على شهادة البكالوريوس في الكيمياء من جامعة بغداد، ماجستير في إدارة الأعمال من الجامعة الأمريكية في العراق، وعلى درجة الماجستير في الاقتصاد الدولي و المحاسبة من جامعة فالبارايسو في الولايات المتحدة.</p>
+			</div>
+		<div id="about-column-ar">
+			<%=image_tag("tim.png", :size => "100x100", :alt => 'Tim') %>
+				<h2>تم</h2>
+				<h3>تصميم الويب وحلول الغيمة</h3>
+				<p>مستشار سابق لأحدى الشركات الاستشارية الكبرى في العالم حيث قاد تحليل تجربة العملاء في مجال التأمين الصحي، واستراتيجية المكتب الأمامي، ومشاريع إصلاح أوباماكير. أكثر من أربع سنوات من الخبرة في العمل مع الشركات العراقية.</p>
+			</div>
+	</div>
+
+	</div>
+
+<%end%>	
+
+
