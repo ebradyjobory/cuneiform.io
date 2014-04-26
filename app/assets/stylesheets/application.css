@@ -214,6 +214,12 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
  padding: 20% 20% 10% 15%;
  color: white;
 }
+
+#contact-ar p  {
+ padding: 20% 20% 10% 15%;
+ color: white;
+}
+
 #work p  {
  padding: 20% 20% 10% 15%;
  color: white;
@@ -480,7 +486,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #contact h2 {
-	maring: 0;
+	margin: 0;
 	padding: 5% 21% 0% 14.75%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
@@ -488,6 +494,22 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	line-height: 1.4em;
+}
+
+
+#contact-ar h2 {
+	margin: 0;
+	padding: 5% 12% 0% 0%;
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.4em;
+	direction: rtl;
+	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
 }
 
 #contact p  {
@@ -500,9 +522,25 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
  	line-height: 1.4em;
  	color: #ecf0f1;
 }
+#contact-ar p  {
+	margin: 0;
+	padding: .5% 12% 2% 14.75%;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1.25em;
+ 	font-weight: 300;
+ 	letter-spacing: .1em;
+ 	line-height: 1.4em;
+ 	color: #ecf0f1;
+ 	direction: rtl;
+ 	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
+}
+
 
 #contact h2 span {
 	color: #3498db;
+
 }
 
 #contact p span {
@@ -524,6 +562,58 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #3498db;
 	line-height: 3em;
 	font-size: .8em;
+
+}
+
+#contact-ar h3 span {
+	color: #3498db;
+	line-height: 3em;
+	font-size: .8em;
+	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
+
+}
+
+
+#contact-ar h2 span {
+	color: #3498db;
+	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
+}
+
+#contact-ar p span {
+	color: #3498db;
+	font-weight: 500;
+	direction: rtl;
+	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
+}
+
+#contact-ar h3 {
+	font-size: 1em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: .1em;
+	padding: 0% 12% 0% 14.75%;
+	direction: rtl;
+	letter-spacing: 1px;
+	font-family: 'Droid Arabic Kufi', serif !important;
+
+
+}
+
+#contact-ar h3 span {
+	color: #3498db;
+	line-height: 3em;
+	font-size: .8em;
+	font-family: 'Arvo', serif !important;
+	direction: rtl;
+
+
 }
 
 
