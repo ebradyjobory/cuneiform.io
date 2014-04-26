@@ -224,7 +224,13 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
  padding: 20% 20% 10% 15%;
  color: white;
 }
+
 #services p  {
+ padding: 20% 20% 10% 15%;
+ color: white;
+}
+
+#services-ar p  {
  padding: 20% 20% 10% 15%;
  color: white;
 }
@@ -243,7 +249,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #about-ar h2 {
 	margin: 0;
-	padding: 5% 11% 0% 21.5%;
+	padding: 5% 11% 0% 28%;
 	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
@@ -309,7 +315,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	text-align: center;
-	padding-left: -10%;
+	
 }
 #about-column-ar h2 {
 	font-size: 1.5em;
@@ -318,7 +324,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 400;
 	letter-spacing: .1em;
 	text-align: center;
-	padding-left: -10%;
+	
 	direction: rtl;
 }
 
@@ -359,7 +365,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #ecf0f1;
 	font-weight: 400;
 	letter-spacing: .1em;
-	padding-left: 1%;
+	padding-left: 12%;
 	padding-bottom: 1%;
 	direction: rtl;
 }
@@ -369,7 +375,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	margin-bottom: -5%;
 }
 #about-column-ar img {
-	padding-left: 44%;
+	padding-left: 49%;
 	margin-bottom: -5%;
 }
 
@@ -424,6 +430,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	line-height: 1.4em;
 }
 
+#services-ar h2 {
+	font-family: 'Droid Arabic Kufi', serif !important;
+	margin: 0;
+	padding: 5% 12.2% 0% 25%;
+	font-size: 1.5em;
+	font-family: 'Arvo', serif;
+	color: #ecf0f1;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.4em;
+	direction: rtl;
+}
+
 #services p  {
 	padding: 0% 14.75% 0% 14.75%;
  	font-family: 'Lato', sans-serif;
@@ -432,10 +451,28 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
  	letter-spacing: .1em;
  	line-height: 1.4em;
  	color: #ecf0f1;
+ 	
+}
+
+#services-ar p  {
+	font-family: 'Droid Arabic Kufi', serif !important;
+	letter-spacing: 1px;
+	padding: 0% 12.5% 0% 14.75%;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1.25em;
+ 	font-weight: 300;
+ 	line-height: 1.4em;
+ 	color: #ecf0f1;
+ 	direction: rtl;
 }
 
 #services h2 span {
 	color: #3498db;
+}
+
+#services-ar h2 span {
+	color: #3498db;
+	direction: rtl
 }
 
 #services p span {
@@ -443,8 +480,21 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	font-weight: 500;
 }
 
+#services-ar p span {
+	color: #3498db;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	direction: rtl
+}
+
 #services-column-container {
 	padding: 2% 14.75% 0% 14.75%;
+
+}
+
+#services-column-container-ar {
+	padding: 2% 14.75% 0% 14.75%;
+	direction: rtl;
 
 }
 
@@ -458,9 +508,28 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     width: 100%;
 }
 
+#services-column-container-ar:before {
+	display: inline-block;
+    margin: 0px -30px 30px 0px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #ecf0f1;
+    width: 100%;
+
+}
+
 #services-column {
 	width: 50%;
 	float: left;
+}
+
+#services-column-ar {
+	width: 50%;
+	float: left;
+	font-family: 'Droid Arabic Kufi', serif !important;
+	letter-spacing: 1px;
+
 }
 
 #services-column h2 {
@@ -469,6 +538,16 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	color: #ecf0f1;
 	font-weight: 400;
 	letter-spacing: .1em;
+}
+
+#services-column-ar h2 {
+	font-size: 1em;
+	margin-right: -6%;
+	font-family: 'Droid Arabic Kufi', serif !important;
+	letter-spacing: 1px;
+	color: #ecf0f1;
+	font-weight: 400;
+	
 }
 
 #services-column ul {
@@ -481,7 +560,23 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	padding-bottom: 5%;
 }
 
+#services-column-ar ul {
+	margin-right: 5%;
+	color: #ecf0f1;
+	font-size: .69em;
+	font-family: 'Droid Arabic Kufi', serif !important;
+	letter-spacing: 1px;
+	color: #ecf0f1;
+	font-weight: 300;
+	letter-spacing: .1em;
+	padding-bottom: 5%;
+}
+
 #services-column li {
+	line-height: 150%;
+}
+
+#services-column-ar li {
 	line-height: 150%;
 }
 
