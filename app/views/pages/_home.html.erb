@@ -1,10 +1,24 @@
-<div id="home">
+<% if  I18n.locale == :en %>	
+
+    <div id="home">
 	
 	
-	<h2>Welcome to Cuneiform.</h2>
-	
-	<p>We bring the <span>best</span> of the web to Iraq and Kurdistan Region.</p>
+			<h2>Welcome to Cuneiform.</h2>
+			
+			<p>We bring the <span>best</span> of the web to Iraq and Kurdistan Region.</p>
+    </div>
+
+<%else%>
+
+	<div id="home-ar">   
+
+	        <h2>أهلا الى كيونيفورم.</h2>
+			
+			<p>نحن نقدم <span>الأفضل</span> من خدمة المواقع الألكترونية في العراق وكوردستان.</p>
+	</div>
+	    
+
+<%end%>
 
 
-</div>
 
