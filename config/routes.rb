@@ -1,8 +1,10 @@
 Cuneiform::Application.routes.draw do
 
-  root "pages#index"
+  
+  scope "(:locale)", :locale => /en|ar/ do
 
-  match '/', to: 'pages#index', via: 'get'
+   match '/', to: 'pages#index', via: 'get'  
+ end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

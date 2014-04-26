@@ -31,24 +31,50 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	width: 100%;
 }
 
+#nav-ar {
+	text-align: center;
+	list-style: none;
+	position: fixed;
+	background-color: white;
+	opacity: 0.4;
+	width: 100%;
+}
+
 #logo {
 	position: absolute;
 	margin: 1.8% 0 0 11%;
 	position: fixed;
 	z-index: 2;
-
-
 }
 
+#logo-ar {
+	position: absolute;
+	margin: 1.8% 0% 0% 89%;
+	position: fixed;
+	z-index: 2;
+
+}
 .navbar ul {
 	padding-top: 0%;
 	padding-bottom: 0%;
 	padding-left: 14%;
-      text-align: center;
+    text-align: center;
+}
+
+.navbar-ar ul {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	padding-left: 62%;
+    text-align: center;
 }
 
 
 #nav li {
+	float: left;
+
+}
+
+#nav-ar li {
 	float: left;
 
 }
@@ -58,7 +84,21 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	display: block;
 }
 
+#nav-ar li  {
+	padding: 1% 1% 1% 1%;
+	display: block;
+	}
+
 #nav li a {
+	font-family: 'Arvo', serif;
+	font-size: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 8px;
+
+}
+#nav-ar li a {
 	font-family: 'Arvo', serif;
 	font-size: 1em;
 	font-weight: 900;
@@ -70,8 +110,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #nav a:hover {
 	color: #c0392b;
-      border-bottom: solid 5px #3498db
+    border-bottom: solid 4px #3498db;
 	}
+
+#nav-ar a:hover {
+	color: #c0392b;
+    border-bottom: solid 4px #3498db;
+	}
+
+
+
+
+
+
 
 
 /* pages content css
@@ -330,7 +381,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 
 /*===================*/
-#intro {
+#intro, #intro-ar {
 	background: url('background-intro.png') no-repeat center center fixed ;
 	background-size: cover;
 	background-position: 0% 100%;
@@ -340,7 +391,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	padding-bottom: 2%;
 }
 
-#second{
+#second, #second-ar{
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	background-position: 0px 100%;
@@ -351,7 +402,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 
-#third{
+#third, #third-ar{
 	background: url('background-intro.png') no-repeat fixed;
 	background-size: cover;
 	background-position: 0px 100%;
@@ -370,7 +421,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 }*/
 
-#fifth{
+#fifth, #fifth-ar{
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	background-position: 0px 100%;

@@ -18,6 +18,8 @@
 	$(document).ready(function(){
 		$('#nav').localScroll(800);
 		$('#logo').localScroll(800);
+		$('#nav-ar').localScroll(800);
+		$('#logo-ar').localScroll(800);
 
 	//.parallax(xPosition, speedFactor, outerHeight) options:
 	//xPosition - Horizontal position of the element
@@ -25,16 +27,29 @@
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#intro').parallax("50%", 0.1);
 	$('#second').parallax("50%", 0.1);
-	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
 	// $('#fourth').parallax("50%", 0.3);
 	$('#fifth').parallax("50%", 0.3);
+	$('#intro-ar').parallax("50%", 0.1);
+	$('#second-ar').parallax("50%", 0.1);
+	$('#third-ar').parallax("50%", 0.3);
+	// $('#fourth-ar').parallax("50%", 0.3);
+	$('#fifth-ar').parallax("50%", 0.3);
 	})
+
+
+
+	//hover effect for navbar//
+
+
 	</script>
+
 </head>
+
 <body>
 
-             <div id="logo">
+		<% if  I18n.locale == :en %>
+        <div id="logo">
 			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => "gallery"), "#intro" %>
 		</div>
 
@@ -44,6 +59,7 @@
 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
 				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
+				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
 	    </div>
 		<div>
@@ -79,7 +95,56 @@
 
 
 
-  </div>
+         </div>
+
+    <%else%>
+
+          <div id="logo-ar">
+			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => "gallery"), "#intro-ar" %>
+		  </div>
+		  	<div class="navbar-ar">
+			<ul id="nav-ar">
+				<li class="english"><%= link_to "English", :locale=>'en'%></li>
+				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
+			    <li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
+				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
+				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
+				
+			</ul>
+	    </div>
+	    <div>
+			    <div id="intro-ar">
+
+					<%= render partial: "home" %>
+
+				</div> <!--#intro-->
+
+				<div id="second-ar">
+
+				    <%= render partial: "about" %>
+
+				</div> <!--#second-->
+
+				<div id="third-ar">
+
+				   <%= render partial: "services" %>
+
+				</div> <!--#third-->
+
+			 	<!-- <div id="fourth">
+
+					<%= render partial: "work" %>
+
+				</div>  -->
+
+				<div id="fifth-ar">
+
+					<%= render partial: "contact" %>
+
+				</div>
+
+
+    <%end%>
 </body>
 </html>
 
