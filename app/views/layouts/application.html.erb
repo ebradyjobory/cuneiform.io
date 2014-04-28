@@ -17,7 +17,7 @@
    
 <!----- JQUERY FOR SLIDING NAVIGATION --->   
 $(document).ready(function() {
-  $('a[href*=#]').each(function() {
+  $('a[href*=#]:not([href=#])').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname
     && this.hash.replace(/#/,'') ) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
          $(this).click(function() {
 
           
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           $('html, body').animate({scrollTop: targetOffset}, 800);
            return false;
          });
          $('#nav li a, #nav-ar li a').click(function(){
