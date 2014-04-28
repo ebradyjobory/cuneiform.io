@@ -69,6 +69,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	z-index: 2;
 }
 
+
 #logo-ar {
 	position: absolute;
 	margin: 1.8% 0% 0% 89%;
@@ -141,8 +142,10 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     border-bottom: solid 4px #3498db;
 	}
 
-
-
+.active {
+	color: #c0392b !important;
+    border-bottom: solid 4px #3498db;
+}	
 
 
 
