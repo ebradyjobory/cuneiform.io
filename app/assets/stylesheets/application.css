@@ -70,7 +70,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #logo {
 	position: absolute;
-	margin: 1.8% 0 0 11%;
+	margin: 1.8% 0% 0% 11%;
 	position: fixed;
 	z-index: 2;
 }
@@ -793,8 +793,9 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #logo img{
-	margin-left: 250%;
-	margin-top: 50%;
+	margin-right: 20%;
+	margin-top: 15%;
+	margin-left: 68%;
 	width: 100px;
 	height: 100px;
 
@@ -813,7 +814,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 	padding-left: 0%;
     margin-top: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 .navbar-ar ul li{
@@ -893,8 +894,41 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 
 
-/* the media querries to be written here*/
+}
+
+
+@media (max-width: 1024px) {
+
+#logo {
+	position: absolute;
+	margin: 2.2% 0% 8% 11%;
+	position: fixed;
+	z-index: 2;
+}	
+
+#nav-ar {
+	text-align: center;
+	list-style: none;
+	position: fixed;
+	margin-right: 4%;
+	background-color: white;
+	opacity: 0.4;
+	width: 100%;
+}
+
+#logo-ar {
+	position: absolute;
+	margin: 2.2% 0% 0% 93%;
+	position: fixed;
+	z-index: 2;
+
+}
 
 
 
 }
+
+
+
+
+
