@@ -22,6 +22,12 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
+ #wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    }
+
 
 .arabic a{
 	font-family: 'Droid Arabic Kufi', serif !important;
@@ -770,6 +776,121 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 
 @media (max-width: 480px) {
+
+.navbar ul li{
+	clear: both;
+	margin-bottom: 5%;
+	margin-top: 3%;
+	line-height: 0.1px;
+}
+
+#logo-ar img{
+	margin-left: -90%;
+	margin-top: 50%;
+	width: 100px;
+	height: 100px;
+
+}
+
+#logo img{
+	margin-left: 250%;
+	margin-top: 50%;
+	width: 100px;
+	height: 100px;
+
+}
+
+.arabic a  {
+}
+.navbar-ar ul{
+
+	padding-left: 0%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.navbar ul{
+
+	padding-left: 0%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.navbar-ar ul li{
+	clear: both;
+	margin-bottom: 5%;
+	margin-top: 15px;
+	line-height: 0.1px;
+}
+
+#nav {
+	width: 100%;
+}
+
+#nav-ar {
+	width: 100%;
+}
+
+#home-ar {
+	width: 100%;
+
+}
+
+#home-ar h2{
+
+	padding-top: 70%;
+	font-size: 2em;
+	margin-right: 14%;
+
+}
+
+#home h2{
+
+	padding-top: 70%;
+	font-size: 2em;
+	margin-right: 14%;
+
+}
+
+#home-ar p {
+	margin-right: 14%;
+	font-size: 1.5em;
+
+}
+
+
+#home p {
+	margin-right: 14%;
+	font-size: 1.5em;
+	width: 60%;
+
+}
+
+
+.services-column-ar {
+	width: 100%;
+}
+
+.navbar , .navbar-ar {
+	text-align: center;
+}
+
+.about-column-ar {
+	width: 100%;
+}
+
+.services-column {
+	width: 100%;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.about-column {
+	width: 100%;
+}
+
 
 
 /* the media querries to be written here*/

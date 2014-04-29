@@ -5,6 +5,7 @@
   <title>Cuneiform | Web Design &amp; Development</title>
   <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <%= favicon_link_tag image_path("favicon.ico") %>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %> 
@@ -79,11 +80,7 @@ $(document).ready(function() {
 
 	</script>
 
-</head>
-
-<body>
-
-		<% if  I18n.locale == :en %>
+    <% if  I18n.locale == :en %>
         <div id="logo">
 			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro" %>
 		</div>
@@ -97,6 +94,30 @@ $(document).ready(function() {
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
 	    </div>
+
+	   <%else%> 
+    <div id="logo-ar">
+			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro-ar" %>
+		  </div>
+		  	<div class="navbar-ar">
+			<ul id="nav-ar">
+				<li class="english"><%= link_to "English", :locale=>'en'%></li>
+				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
+				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
+				<li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
+				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
+				
+			</ul>
+	    </div>
+
+	    <%end%>
+
+</head>
+
+<body>
+	<div id="wrapper">
+
+		<% if  I18n.locale == :en %>
 		<div>
 			    <div id="intro">
 
@@ -129,19 +150,7 @@ $(document).ready(function() {
 
     <%else%>
 
-          <div id="logo-ar">
-			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro-ar" %>
-		  </div>
-		  	<div class="navbar-ar">
-			<ul id="nav-ar">
-				<li class="english"><%= link_to "English", :locale=>'en'%></li>
-				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
-				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
-				<li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
-				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
-				
-			</ul>
-	    </div>
+      
 	    <div>
 			    <div id="intro-ar">
 
@@ -170,6 +179,8 @@ $(document).ready(function() {
 
 
     <%end%>
+
+  </div>
 </body>
 </html>
 
