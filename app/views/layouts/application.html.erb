@@ -7,8 +7,9 @@
   <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <%= favicon_link_tag image_path("favicon.ico") %>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %> 
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %> 
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "jquery-1.10.2.min", "data-turbolinks-track" => true %>
 
   <%= csrf_meta_tags %>
@@ -51,6 +52,11 @@ $(document).ready(function() {
 
 </script>
 
+</head>
+<body>
+
+
+<div class="container clearfix">
 
     <% if  I18n.locale == :en %>
         <div id="logo">
@@ -80,17 +86,12 @@ $(document).ready(function() {
 				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
 				
 			</ul>
-	    </div>
+	        </div>
 
 	    <%end%>
 
-</head>
-
-<body>
-	<div id="wrapper">
-
-		<% if  I18n.locale == :en %>
-		<div>
+	<% if  I18n.locale == :en %>
+		
 			    <div id="intro">
 
 					<%= render partial: "home" %>
@@ -116,14 +117,8 @@ $(document).ready(function() {
 
 				</div>
 
-
-
-         </div>
-
     <%else%>
 
-      
-	    <div>
 			    <div id="intro-ar">
 
 					<%= render partial: "home" %>
@@ -150,9 +145,9 @@ $(document).ready(function() {
 				</div>
 
 
-    <%end%>
+      <%end%>
 
-  </div>
+</div>
 </body>
 </html>
 
