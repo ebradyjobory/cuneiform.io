@@ -1087,15 +1087,7 @@ Small Resulutions
 
 @media (max-width: 600px) {
 
-#intro, #intro-ar {
-	background: url('background-intro-mob.png') no-repeat center center fixed ;
-	background-size: cover;
-	background-position: 100% 0%;
-	height: 800px;
-	margin-left: 0px;
-	margin-top: -20px;
-	padding-bottom: 2%;
-}
+
      
  .navbar-mob {
 	display: none;
