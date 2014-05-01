@@ -11,6 +11,9 @@
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %> 
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "jquery-1.10.2.min", "data-turbolinks-track" => true %>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <%= javascript_include_tag "jquery.fittext", "data-turbolinks-track" => true %>
+
 
   <%= csrf_meta_tags %>
   
@@ -59,11 +62,11 @@ $(document).ready(function() {
 <div class="container clearfix">
 
     <% if  I18n.locale == :en %>
-        <div id="logo">
-			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro" %>
+        <div id="logo", class="logo_res">
+			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => "logo_res"), "#intro" %>
 		</div>
 
-		<div class="navbar">
+		<div class="navbar nav_res">
 			<ul id="nav">
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
@@ -71,22 +74,46 @@ $(document).ready(function() {
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
+			 <a href="#" class="pull"></a> 
 	    </div>
+
+	    <div class="navbar-mob">
+			<ul id="nav-mob">
+			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
+				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
+				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
+				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
+				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
+			</ul>
+			 <a href="#" class="pull"></a> 
+	    </div>
+
 
 	   <%else%> 
           <div id="logo-ar">
 			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro-ar" %>
 		  </div>
-		  	<div class="navbar-ar">
+		  	<div class="navbar-ar nav_res">
 			<ul id="nav-ar">
 				<li class="english"><%= link_to "English", :locale=>'en'%></li>
 				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
 				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
 				<li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
 				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
-				
 			</ul>
+			<a href="#" class="pull"></a> 
 	        </div>
+
+	          <div class="navbar-ar-mob">
+			<ul id="nav-ar-mob">
+			    <li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
+			    <li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
+				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
+				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
+				<li class="english"><%= link_to "English", :locale=>'en'%></li>
+			</ul>
+			 <a href="#" class="pull"></a> 
+	    </div>
 
 	    <%end%>
 
@@ -148,6 +175,62 @@ $(document).ready(function() {
       <%end%>
 
 </div>
+
+<script type="text/javascript">
+jQuery(".logo_res").fitText(1);
+jQuery(".nav_res").fitText(7);
+jQuery(".res_column").fitText(3);
+jQuery(".res").fitText(3.7);
+jQuery(".res_home_p").fitText(2.7);
+jQuery(".res_name").fitText(2);
+jQuery(".res_links").fitText(1.5);
+jQuery(".nav_res-mob").fitText(.5);
+jQuery(".nav_res-ar-mob").fitText(.4);
+
+
+</script>
+<script>
+
+$(function() {  
+    var pull        = $('.pull');  
+        menu        = $('.navbar-mob, .navbar-ar-mob ');  
+        menuHeight  = menu.height();  
+  
+    $(pull).on('click', function(e) {  
+        e.preventDefault();  
+        menu.slideToggle();  
+    });  
+}); 
+
+</script>
+
+<script>
+
+$(window).resize(function(){  
+    var w = $(window).width();  
+    if(w > 1000 && menu.is(':hidden')) {  
+        menu.removeAttr('style');  
+    }  
+});   
+
+</script>
+
+<script>
+
+ $('#nav-mob li a, #nav-ar-mob li a').click(function(){
+         	$('#nav-mob li a, #nav-ar-mob li a').removeClass("active-mob");
+            $(this).addClass('active-mob');
+         });
+
+
+ $('a.pull').click(function(){
+
+ 	$(this).toggleClass("click");
+
+
+ });
+
+</script>
 </body>
 </html>
 

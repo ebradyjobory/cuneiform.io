@@ -22,6 +22,7 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
+
  #wrapper {
     width: 100%;
     max-width: 1280px;
@@ -70,7 +71,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 #logo {
 	position: absolute;
-	margin: 1.8% 0% 0% 11%;
+	margin: 2% 0% 0% 11%;
 	position: fixed;
 	z-index: 2;
 }
@@ -93,7 +94,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 .navbar-ar ul {
 	padding-top: 0%;
 	padding-bottom: 0%;
-	padding-left: 62%;
+	padding-left: 60%;
     text-align: center;
 }
 
@@ -164,7 +165,6 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
     margin-left: -7%;
 	padding: 15% 10% 1% 21.75%;
-	font-size: 1.5em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
 	font-weight: 400;
@@ -245,9 +245,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #about h2 {
-	margin: 0;
 	padding: 5% 14.75% 0% 21.5%;
-	font-size: 1.5em;
+	font-size: 4em;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
 	font-weight: 400;
@@ -605,7 +604,6 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	margin: 0;
 	padding: 5% 12% 0% 0%;
 	font-size: 1.5em;
-	font-family: 'Arvo', serif;
 	color: #ecf0f1;
 	font-weight: 400;
 	letter-spacing: .1em;
@@ -619,7 +617,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 #contact p  {
 	margin: 0;
 	padding: .5% 21% 2% 14.75%;
- 	font-family: 'Lato', sans-serif;
+	font-family: 'Arvo', serif;
  	font-size: 1.25em;
  	font-weight: 300;
  	letter-spacing: .1em;
@@ -629,7 +627,6 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 #contact-ar p  {
 	margin: 0;
 	padding: .5% 12% 2% 14.75%;
- 	font-family: 'Lato', sans-serif;
  	font-size: 1.25em;
  	font-weight: 300;
  	letter-spacing: .1em;
@@ -726,7 +723,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	background: url('background-intro.png') no-repeat center center fixed ;
 	background-size: cover;
 	background-position: 0% 100%;
-	height: 650px;
+	height: 800px;
 	margin-left: 0px;
 	margin-top: -20px;
 	padding-bottom: 2%;
@@ -736,10 +733,11 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	background-position: 0px 100%;
-	height: 650px;
+	height: 800px;
 	margin-left: -110px;
 	margin-top: -10px;
 	padding-bottom: 2%;
+
 }
 
 
@@ -747,20 +745,13 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 	background: url('background-intro.png') no-repeat fixed;
 	background-size: cover;
 	background-position: 0px 100%;
-	height: 650px;
+	height: 800px;
 	margin-left: 0px;
 	margin-top: -16px;
 
 
 }
 
-
-/*#fourth{
-	background-color: green;
-	height: 650px;
-	width: 1400px;
-
-}*/
 
 #fifth, #fifth-ar{
 	background: url('background-tigris-44.png') no-repeat center center fixed;
@@ -771,200 +762,551 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 
+.navbar-mob {
+	display: none;
 
-
-
-
-@media (max-width: 480px) {
-
-.navbar ul li{
-	clear: both;
-	margin-bottom: 5%;
-	margin-top: 15px;
-	line-height: 0.1px;
 }
 
-.navbar-ar ul li{
-	clear: both;
-	margin-bottom: 5%;
-	margin-top: 15px;
-	line-height: 0.1px;
+.navbar-ar-mob {
+	display: none;
+
+}
+ 
+
+
+/* Media
+=============
+Medium Resulutions
+=================*/
+
+
+@media (max-width: 1000px) {
+
+#logo  {
+	top: -1%;
+	left: -3%;
 }
 
-.navbar ul{
+#logo-ar  {
+	top: -1%;
+	right: 9%;
+}
 
+
+#intro, #intro-ar {
+	background: url('background-intro.png') no-repeat center center fixed ;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 800px;
+	margin-left: 0px;
+	margin-top: -20px;
+	padding-bottom: 2%;
+}
+
+
+#second, #second-ar{
+	background: url('background-tigris-44.png') no-repeat center center fixed;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 800px;
+	margin-left: -110px;
+	margin-top: -10px;
+	padding-bottom: 2%;
+
+}
+
+
+#third, #third-ar{
+	background: url('background-intro.png') no-repeat fixed;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 800px;
+	margin-left: 0px;
+	margin-top: -16px;
+
+
+}
+
+
+#fifth, #fifth-ar{
+	background: url('background-tigris-44.png') no-repeat center center fixed;
+	background-size: cover;
+	background-position: 100% 0%;
+	height: 650px;
+	margin-left: 0px;
+}
+
+
+#nav {
+	display: none;
+
+}
+
+#nav-ar {
+	display: none;
+
+}
+
+.navbar-mob {
+	position: fixed;
+	margin-top: 4%;
+	margin-left: 35%;
+	text-align: center;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;	
+	text-decoration: none;
+	color: black;
+	opacity: 0.4;
+	width: 15%;
+	padding-top: 0%;
+	padding-bottom: -2%;
+	width: 40%;
+
+}
+
+.navbar-ar-mob {
+	position: fixed;
+	margin-top: 4%;
+	margin-left: 30%;
+	text-align: center;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;	
+	text-decoration: none;
+	color: black;
+	opacity: 0.4;
+	width: 15%;
+	padding-top: 0%;
+	padding-bottom: -2%;
+	width: 40%;
+
+}
+
+#nav-mob li {
+
+	font-size: 1em;
+	font-weight: 900;
+	color: black;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	list-style: none !important;
+	border: 1px solid black;
+}
+
+
+#nav-ar-mob li {
+	font-size: 1em;
+	font-weight: 900;
+	color: black;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	list-style: none !important;
+	border: 1px solid black;
+}
+
+#nav-mob li a{
+	font-family: 'Arvo', serif;
+	color: black;
+	text-shadow: none;
+	padding: 5%;
+	text-decoration: none;
+}
+
+#nav-ar-mob li a{
+	font-family: 'Droid Arabic Kufi', serif;
+	color: black;
+	text-shadow: none;
+	padding: 0%;
+	text-decoration: none;
+
+}
+
+#nav-mob li a:hover {
+color: #c0392b !important;
+}
+
+#nav-ar-mob li a:hover {
+color: #c0392b !important;
+}
+
+
+
+.active-mob {
+   color: #c0392b !important;
+}
+
+ul#nav-mob  {
+	margin-top: 0%;
+	margin-bottom: 0%;
 	padding-left: 0%;
-    margin-top: 20px;
-    width: 100%;
 }
 
-.navbar-ar ul{
-
+ul#nav-ar-mob  {
+	margin-top: 0%;
+	margin-bottom: 0%;
 	padding-left: 0%;
-    margin-top: 20px;
-    width: 100%;
+}
+
+  
+.navbar a.pull {  
+    display: block; 
+    position: fixed; 
+    width: 100%;  
+    position: relative; 
+	width: 100%; 
+} 
+
+.navbar-ar a.pull {  
+    display: block; 
+    position: fixed; 
+    width: 100%;  
+    position: relative; 
+	width: 100%; 
+}  
+
+.navbar a.pull:after {  
+    content:"";  
+    background: url('nav-icon.png') no-repeat ; 
+    position: fixed; 
+    width: 40%;  
+    height: 3%;    
+    display: inline-block;  
+    left: 95%;  
+    top: 3.5%;  
+}  
+
+.click {
+	opacity: 0.4;
+}
+
+.navbar-ar a.pull:after {  
+    content:"";  
+    background: url('nav-icon.png') no-repeat ; 
+    position: fixed; 
+    width: 40%;  
+    height: 30%;  
+    display: inline-block;  
+    left: 5%;  
+    top: 2%;  
+}  
+
+
+#home h2 {
+	padding-top: 20%;
+	font-size: 2em !important;
+}
+
+#home-ar h2 {
+	padding-top: 20%;
+	font-size: 2em !important;
+}
+
+
+#about h2 {
+	padding-top: 10%;
+}
+
+#about-ar h2 {
+	padding-top: 10%;
+}
+
+#services h2 {
+	padding-top: 13%;
+}
+
+#services-ar h2 {
+	padding-top: 13%;
+}
+
+
+#contact h2 {
+	padding-top: 13%;
+}
+
+#contact-ar h2 {
+	padding-top: 13%;
 }
 
 
 
-#logo img{
-	width: 100px;
-	height: 100px;
-}
-
-div#logo {
-	margin-left: 72%;
-	margin-top: 60px;
-	margin-right: 0px;
-}
 
 
-#logo-ar img{
-	margin-left: -90%;
-	margin-top: 50%;
-	width: 100px;
-	height: 100px;
-
-}
-
-/*===Contnt====*/
-
-#home-ar {
-	width: 100%;
-
-}
-div#home-ar {
-	width: 100%;
-
-}
-
-#home-ar h2{
-
-	padding-top: 70%;
-	font-size: 2em;
-
-}
-
-#home h2{
-
-	padding-top: 70%;
-	padding-left: 10%;
-	font-size: 2em;
-}
-#home p{
-
-	padding-left: 10%;
-	font-size: 2em;
-
-}
-
-#about h2{
-		padding-top: 40%;
 
 
-	font-size: 1.5em;
-	margin-right: 1%;
+
+
+
+
+
+
+
+
 
 }
 
 
-#home-ar p {
-	margin-right: 14%;
-	font-size: 1.5em;
+
+/* Media
+=============
+medium Resulutions
+=================*/
+
+@media (max-width: 600px) {
+
+
+
+
+
+
+
 
 }
+
+
+
+
+/* Media
+=============
+Small Resulutions
+=================*/
+
+
+@media (max-width: 600px) {
+
+     
+ .navbar-mob {
+	display: none;
+	position: fixed;
+	margin-top: 7%;
+	margin-left: 33%;
+	text-align: center;	
+
+}  
+
+
+.navbar a.pull:after {  
+    content:"";  
+    background: url('nav-icon.png') no-repeat ; 
+    position: fixed; 
+    width: 40%;  
+    height: 3%;  
+    display: inline-block;  
+    left: 90%;  
+    top: 2.5%;  
+}  
+
+
+#home h2 {
+	padding-top: 40%;
+	font-size: 2em !important;
+}  
+
+#home-ar h2 {
+	padding-top: 40%;
+	font-size: 2em !important;
+}  
 
 
 #home p {
-	margin-right: 14%;
-	font-size: 1.5em;
-	width: 60%;
+
+	font-size: 1.5em !important;
+
+}
+
+#home-ar p {
+
+	font-size: 1.5em !important;
 
 }
 
 
-.services-column-ar {
-	width: 100%;
+#about h2 {
+	padding-top: 20%;
+	padding-left: 34%;
+	font-size: 1em !important;
 }
 
-.navbar , .navbar-ar {
-	text-align: center;
-}
-
-.about-column-ar {
-	width: 100%;
-}
-
-.services-column {
-	width: 100%;
-}
-
-.navbar {
-	text-align: center;
+#about-ar h2 {
+	padding-top: 20%;
+	padding-left: 34%;
+	font-size: 1em !important;
 }
 
 .about-column {
 	width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    padding-left: 3%;
 
 }
 
-
-/* iPad 
-============ */
-
-@media (max-width: 1024px) {
-
-#logo {
-	position: absolute;
-	margin: 2.2% 0% 8% 11%;
-	position: fixed;
-	z-index: 2;
-}	
-
-#nav-ar {
-	text-align: center;
-	list-style: none;
-	position: fixed;
-	margin-right: 4%;
-	background-color: white;
-	opacity: 0.4;
+.about-column-ar {
 	width: 100%;
-}
-
-#logo-ar {
-	position: absolute;
-	margin: 2.2% 0% 0% 93%;
-	position: fixed;
-	z-index: 2;
+    padding-left: 3%;
 
 }
 
+.about-column img {
+	display: none;
+}
+
+.about-column-ar img {
+	display: none;
+}
+
+
+.about-column h2 {
+	margin-left: -9%;
+	margin-top: -15% !important;
+	font-size: 2em !important;
+}
+
+.about-column-ar h2 {
+	margin-left: -9%;
+	margin-top: -15% !important;
+	font-size: 2em !important;
+}
+
+.about-column  {
+	font-size: 1em !important;
+}
+
+.about-column-ar {
+	font-size: 1em !important;
+}
+
+.about-column  p {
+	font-size: 0.5em !important;
+}
+
+.about-column-ar p {
+	font-size: 0.5em !important;
+}
+
+
+.about-column h2:before {
+	display: none;
+}
+
+
+.about-column-ar h2:before {
+	display: none;
+}
+
+.about-column h2:after {
+	display: none;
+}
+
+.about-column-ar h2:after {
+	display: none;
+}
+
+#services h2 {
+	padding-top: 20%;
+	font-size: 1em !important;
+	padding-bottom: 3%;
+}
+
+#services-ar h2 {
+	padding-top: 20%;
+	font-size: 1em !important;
+	padding-bottom: 3%;
+}
+
+#services p {
+	display: none;
+}
+
+#services-ar p {
+	display: none;
+}
+
+
+.services-column {
+	margin-top: -5%;
+	width: 100%;
+	font-size: 0.5em !important;
+}
+
+.services-column-ar {
+	margin-top: -5%;
+	width: 100%;
+	font-size: 0.5em !important;
+}
+
+#contact h2 {
+	padding-top: 20%;
+	font-size: 1.5em !important;
+	text-align: center;
+}
+
+#contact-ar h2 {
+	padding-top: 20%;
+	font-size: 1.5em !important;
+	text-align: center;
+}
+
+
+#contact p {
+	display: none;
+}
+
+
+#contact-ar p {
+	display: none;
+}
+
+
+#contact h3 {
+	font-size: 1.5em !important;
+	text-align: center;
+}
+
+
+#contact-ar h3 {
+	font-size: 1.5em !important;
+	text-align: center;
+	width: 60%;
+}
+
+#logo  {
+	top: 0%;
+	left: -3%;
+}
+
+#logo-ar  {
+	top: 0%;
+	left: -3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
-
 
 
 
