@@ -1023,6 +1023,7 @@ ul#nav-ar-mob  {
 
 #services-ar h2 {
 	padding-top: 13%;
+
 }
 
 
@@ -1107,17 +1108,17 @@ Small Resulutions
     height: 3%;  
     display: inline-block;  
     left: 90%;  
-    top: 2.5%;  
+    top: 3%;  
 }  
 
 
 #home h2 {
-	padding-top: 40%;
+	padding-top: 25%;
 	font-size: 2em !important;
 }  
 
 #home-ar h2 {
-	padding-top: 40%;
+	padding-top: 25%;
 	font-size: 2em !important;
 }  
 
@@ -1136,26 +1137,29 @@ Small Resulutions
 
 
 #about h2 {
-	padding-top: 20%;
+	padding-top: 10%;
 	padding-left: 34%;
 	font-size: 1em !important;
 }
 
 #about-ar h2 {
-	padding-top: 20%;
+	padding-top: 10%;
 	padding-left: 34%;
 	font-size: 1em !important;
 }
 
 .about-column {
-	width: 100%;
-    padding-left: 3%;
+	width: 80%;
+    padding-left: 14%;
+    padding-top: 3%; 
 
 }
 
 .about-column-ar {
-	width: 100%;
-    padding-left: 3%;
+	width: 80%;
+    padding-left: 14%;
+        padding-top: 3%; 
+
 
 }
 
@@ -1215,13 +1219,13 @@ Small Resulutions
 }
 
 #services h2 {
-	padding-top: 20%;
+	padding-top: 10%;
 	font-size: 1em !important;
 	padding-bottom: 3%;
 }
 
 #services-ar h2 {
-	padding-top: 20%;
+	padding-top: 10%;
 	font-size: 1em !important;
 	padding-bottom: 3%;
 }
