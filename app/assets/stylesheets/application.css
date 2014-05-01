@@ -1034,6 +1034,13 @@ ul#nav-ar-mob  {
 	padding-top: 13%;
 }
 
+.services-column {
+	font-size: 0.82em !important;
+}
+
+.services-column-ar {
+	font-size: 0.9em !important;
+}
 
 
 
@@ -1230,13 +1237,13 @@ Small Resulutions
 .services-column {
 	margin-top: -5%;
 	width: 100%;
-	font-size: 0.5em !important;
+	font-size: 0.7em !important;
 }
 
 .services-column-ar {
 	margin-top: -5%;
 	width: 100%;
-	font-size: 0.5em !important;
+	font-size: 0.7em !important;
 }
 
 #contact h2 {
