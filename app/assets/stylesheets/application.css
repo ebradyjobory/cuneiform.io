@@ -162,9 +162,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 ====================== */
 
 #home h2 {
-
-    margin-left: -7%;
-	padding: 15% 10% 1% 21.75%;
+    margin-left: 15%;
+	padding: 15% 10% 1% 0%;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
 	font-weight: 400;
@@ -187,8 +186,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #home p  {
-	margin-left: -7%;
-	padding: 0% 15% 0% 21.75%;
+	margin-left: 15%;
+	padding: 0% 15% 0% 0%;
 	font-family: 'Arvo', serif;
 	font-size: 2em;
 	font-weight: 400;
@@ -245,8 +244,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #about h2 {
-	padding: 5% 14.75% 0% 21.5%;
-	font-size: 4em;
+	margin-left: 21.5%;
+	padding: 5% 10% 1% 0%;
 	font-family: 'Arvo', serif;
 	color: #ecf0f1;
 	font-weight: 400;
@@ -1105,7 +1104,7 @@ Small Resulutions
     background: url('nav-icon.png') no-repeat ; 
     position: fixed; 
     width: 40%;  
-    height: 3%;  
+    height: 10%;  
     display: inline-block;  
     left: 90%;  
     top: 3%;  
@@ -1137,28 +1136,31 @@ Small Resulutions
 
 
 #about h2 {
+	margin-left: 35%;
 	padding-top: 10%;
-	padding-left: 34%;
-	font-size: 1em !important;
+	font-size: 0.7em !important;
 }
 
 #about-ar h2 {
 	padding-top: 10%;
 	padding-left: 34%;
-	font-size: 1em !important;
+	font-size: 0.7em !important;
 }
 
 .about-column {
 	width: 80%;
     padding-left: 14%;
     padding-top: 3%; 
+    text-align: center; 
+
 
 }
 
 .about-column-ar {
 	width: 80%;
     padding-left: 14%;
-        padding-top: 3%; 
+    padding-top: 3%;
+    text-align: center; 
 
 
 }
@@ -1173,23 +1175,28 @@ Small Resulutions
 
 
 .about-column h2 {
-	margin-left: -9%;
+	margin-left: 14% !important;
 	margin-top: -15% !important;
 	font-size: 2em !important;
 }
 
 .about-column-ar h2 {
-	margin-left: -9%;
-	margin-top: -15% !important;
+	position: absolute;
+	margin-left: 8% !important;
+	margin-top: -14% !important;
+    padding-top: -10% !important;
 	font-size: 2em !important;
 }
 
 .about-column  {
 	font-size: 1em !important;
+		margin-left: 4% !important;
+
 }
 
 .about-column-ar {
 	font-size: 1em !important;
+	margin-left: 8% !important;
 }
 
 .about-column  p {
@@ -1219,8 +1226,8 @@ Small Resulutions
 }
 
 #services h2 {
-	padding-top: 10%;
-	font-size: 1em !important;
+	padding-top: 12%;
+	font-size: 0.7em !important;
 	padding-bottom: 3%;
 }
 
@@ -1242,14 +1249,29 @@ Small Resulutions
 .services-column {
 	margin-top: -5%;
 	width: 100%;
-	font-size: 0.7em !important;
+	font-size: 0.6em !important;
 }
 
 .services-column-ar {
 	margin-top: -5%;
 	width: 100%;
-	font-size: 0.7em !important;
+	font-size: 0.6em !important;
 }
+
+
+#services-column-container:before {
+	display: none;
+   
+
+}
+
+#services-column-container-ar:before {
+	display: none;
+   
+
+}
+
+
 
 #contact h2 {
 	padding-top: 20%;
@@ -1258,7 +1280,8 @@ Small Resulutions
 }
 
 #contact-ar h2 {
-	padding-top: 20%;
+	padding-top: 10%;
+	margin-left: 10%;
 	font-size: 1.5em !important;
 	text-align: center;
 }
@@ -1283,17 +1306,16 @@ Small Resulutions
 #contact-ar h3 {
 	font-size: 1.5em !important;
 	text-align: center;
-	width: 60%;
 }
 
 #logo  {
-	top: 0%;
-	left: -3%;
+	top: 1%;
+	left: -9%;
 }
 
 #logo-ar  {
 	top: 0%;
-	left: -3%;
+	left: -1%;
 }
 
 
