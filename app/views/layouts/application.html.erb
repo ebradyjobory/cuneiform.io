@@ -191,16 +191,49 @@ jQuery(".nav_res-ar-mob").fitText(.4);
 </script>
 <script>
 
+// $(".pull").toggle(
+
+// function()
+// {
+//     $(".res").closest('h2').animate({"padding-top": "150px"}); 
+// },
+// function()
+// {
+//     $(".res").closest('h2').animate({"padding-top": "50px"}); 
+// }
+// );
+
+
+
 $(function() {  
     var pull        = $('.pull');  
         menu        = $('.navbar-mob, .navbar-ar-mob ');  
-        menuHeight  = menu.height();  
   
     $(pull).on('click', function(e) {  
-        e.preventDefault();  
-        menu.slideToggle();  
-    });  
-}); 
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});  
+
+var hidden = true;
+$(".pull").click(function() {
+  if (hidden) {
+   $(".res").closest('h2').animate({"padding-top": "200px"}); 
+  } else {
+    $(".res").closest('h2').animate({"padding-top": "150px"}); 
+  }
+  hidden = !hidden;
+});
+
+
+
+
+    $('#nav-mob li a, #nav-ar-mob li a').click(function(){
+     $('a.pull').removeClass("click");
+     menu.slideUp();
+     $(".res").closest('h2').animate({"padding-top": "100px"}); 
+	
+    });
 
 
 $(window).resize(function(){  
@@ -221,7 +254,6 @@ $(window).resize(function(){
 
 
  $('a.pull').click(function(){
-
  	$(this).toggleClass("click");
 
 

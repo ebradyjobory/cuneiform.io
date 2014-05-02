@@ -29,6 +29,23 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     margin: auto;
     }
 
+.move-para {
+
+padding-top: 200px !important;
+
+}
+
+.expand {
+
+	padding-top: 200px !important;
+
+}
+
+.shrink {
+	padding-top: 800px !important;
+
+}
+
 
 .arabic a{
 	font-family: 'Droid Arabic Kufi', serif !important;
@@ -783,7 +800,7 @@ Medium Resulutions
 
 #logo  {
 	top: -1%;
-	left: -3%;
+	left: -10%;
 }
 
 #logo-ar  {
@@ -975,7 +992,7 @@ ul#nav-ar-mob  {
     background: url('nav-icon.png') no-repeat ; 
     position: fixed; 
     width: 40%;  
-    height: 3%;    
+    height: 10%;    
     display: inline-block;  
     left: 95%;  
     top: 3.5%;  
@@ -998,30 +1015,32 @@ ul#nav-ar-mob  {
 
 
 #home h2 {
-	padding-top: 20%;
-	font-size: 2em !important;
+	padding-top: 15%;
+	font-size: 1.5em !important;
 }
 
 #home-ar h2 {
-	padding-top: 20%;
-	font-size: 2em !important;
+	padding-top: 15%;
+	font-size: 1.5em !important;
 }
 
 
 #about h2 {
-	padding-top: 10%;
+	padding-top: 5%;
+	font-size: 1em !important;
+
 }
 
 #about-ar h2 {
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 #services h2 {
-	padding-top: 13%;
+	padding-top: 5%;
 }
 
 #services-ar h2 {
-	padding-top: 13%;
+	padding-top: 5%;
 
 }
 
@@ -1035,18 +1054,12 @@ ul#nav-ar-mob  {
 }
 
 .services-column {
-	font-size: 0.82em !important;
+	font-size: 0.5em !important;
 }
 
 .services-column-ar {
 	font-size: 0.9em !important;
 }
-
-
-
-
-
-
 
 
 
@@ -1065,7 +1078,108 @@ ul#nav-ar-mob  {
 medium Resulutions
 =================*/
 
-@media (max-width: 600px) {
+@media (max-width: 700px)  {
+
+
+#logo-ar {
+	margin-right: -5%;
+}	
+
+#about h2 {
+	margin-top: -8%;
+	font-size: 0.6em !important;
+	margin-bottom: -4%;
+}
+
+#about-ar h2 {
+	margin-top: 0%;
+	font-size: 0.6em !important;
+	margin-bottom: -4%;
+}
+
+.about-column img {
+	width: 20%;
+	height: 20%;
+	margin-bottom: -2% !important;
+	margin-bottom: -5%;
+}
+
+.about-column-ar img {
+	width: 20%;
+	height: 20%;
+	margin-bottom: -2% !important;
+	margin-bottom: -5%;
+}
+
+.about-column h2 {
+	margin-bottom: 0.5% !important;
+	margin-top: -10% !important;
+}
+
+.about-column-ar h2 {
+	margin-bottom: 0.5% !important;
+	margin-top: -5% !important;
+}
+
+#services h2 {
+	margin-top: -10%;
+	margin-left: -5%;
+	font-size: 0.6em !important;
+}
+
+#services-ar h2 {
+	margin-top: 0%;
+	margin-left: -5%;
+	font-size: 0.6em !important;
+}
+
+#services p {
+	display: none;
+}
+#services-ar p {
+	display: none;
+}
+
+#services-column-container:before {
+	display: none;  
+}
+
+#services-column-container-ar:before {
+	display: none;
+}
+
+#services-column {
+	font-size: 0.1em !important;
+}
+
+#services-column-ar {
+	font-size: 0.1em !important;
+}
+
+
+#contact h2 {
+	padding-top: 7%;
+	font-size: 0.5em !important;
+}
+
+#contact-ar h2 {
+	padding-top: 7%;
+	font-size: 0.5em !important;
+}
+
+
+#contact h3 {
+	font-size: 0.8em !important;
+}
+
+#contact-ar h3 {
+	font-size: 0.6em !important;
+}
+
+
+
+
+
 
 
 
@@ -1085,7 +1199,7 @@ Small Resulutions
 =================*/
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
 
      
@@ -1150,7 +1264,7 @@ Small Resulutions
 .about-column {
 	width: 80%;
     padding-left: 14%;
-    padding-top: 3%; 
+    padding-top: 6%; 
     text-align: center; 
 
 
@@ -1309,6 +1423,7 @@ Small Resulutions
 }
 
 #logo  {
+	display: block !important;
 	top: 1%;
 	left: -9%;
 }
