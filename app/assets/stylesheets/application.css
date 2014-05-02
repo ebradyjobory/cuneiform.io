@@ -449,6 +449,10 @@ padding-top: 200px !important;
     width: 27%;
 }
 
+#services {
+	padding-top: 0px;
+}
+
 #services h2 {
 	margin: 0;
 	padding: 5% 14.75% 0% 14.75%;
@@ -779,7 +783,7 @@ padding-top: 200px !important;
 	background: url('background-tigris-44.png') no-repeat center center fixed;
 	background-size: cover;
 	background-position: 0px 100%;
-	height: 650px;
+	height: 800px;
 	margin-left: 0px;
 }
 
@@ -1097,6 +1101,17 @@ medium Resulutions
 	padding-bottom: 2%;
 }
 
+#second, #second-ar{
+	background: url('background-tigris-44.png') no-repeat center center fixed;
+	background-size: cover;
+	background-position: 0px 100%;
+	height: 900px;
+	margin-left: -110px;
+	padding-top: 30px;
+	padding-bottom: 2%;
+
+}
+
 .navbar-ar-mob {
 	position: fixed;
 	margin-top: 4%;
@@ -1131,8 +1146,14 @@ medium Resulutions
 
 #about {
 	margin-left: 3%;
+	margin-top: 20px;
 }	
 
+
+#about-ar {
+	margin-left: 3%;
+	margin-top: -20px;
+}	
 #about h2 {
 	margin-top: -8%;
 	font-size: 0.6em !important;
@@ -1235,6 +1256,7 @@ medium Resulutions
 
 #contact-ar h3 {
 	font-size: 0.8em !important;
+	margin-top: -1%;
 }
 
 
@@ -1456,7 +1478,9 @@ Small Resulutions
 
 }
 
-
+#contact {
+	margin-left: 4%;
+}
 
 #contact h2 {
 	padding-top: 20%;
