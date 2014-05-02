@@ -211,27 +211,37 @@ $(function() {
   
     $(pull).on('click', function(e) {  
         e.preventDefault();
-        menu.slideToggle();
+        menu.slideToggle(50);
+        $(".res").closest('h2').toggleClass('move-para'); 
     });
 });  
 
-var hidden = true;
-$(".pull").click(function() {
-  if (hidden) {
-   $(".res").closest('h2').animate({"padding-top": "200px"}); 
-  } else {
-    $(".res").closest('h2').animate({"padding-top": "150px"}); 
-  }
-  hidden = !hidden;
-});
 
 
+
+// var hidden = true;
+// $(".pull").click(function() {
+//   if (hidden) {
+//    $(".res").closest('h2').toggleClass('move-para'); 
+//   } else {
+//     $(".res").closest('h2').toggleClass('move-paraive')
+//   }
+//   hidden = !hidden;
+// });
+
+ // $('#nav-mob li a, #nav-ar-mob li a').click(function(){
+ //     $('a.pull').animate({
+
+ //     menu.slideUp();
+ //     $(".res").closest('h2').animate({"padding-top": "100px"}); 
+	
+ //    });
 
 
     $('#nav-mob li a, #nav-ar-mob li a').click(function(){
+     $(".res").closest('h2').removeClass('move-para'); 
      $('a.pull').removeClass("click");
-     menu.slideUp();
-     $(".res").closest('h2').animate({"padding-top": "100px"}); 
+     menu.slideUp(50);
 	
     });
 
