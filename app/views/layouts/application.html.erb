@@ -7,8 +7,8 @@
   <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
   <%= favicon_link_tag image_path("favicon.ico") %>
-  <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %> 
-  <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %> 
+  <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "jquery-1.10.2.min", "data-turbolinks-track" => true %>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -16,11 +16,11 @@
 
 
   <%= csrf_meta_tags %>
-  
+
 
 	<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
 $(document).ready(function() {
   $('a[href*=#]:not([href=#])').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -31,10 +31,10 @@ $(document).ready(function() {
        if ($target) {
          var targetOffset = $target.offset().top;
 
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
          $(this).click(function() {
 
-          
+
            $('html, body').animate({scrollTop: targetOffset}, 800);
            return false;
          });
@@ -69,27 +69,27 @@ $(document).ready(function() {
 		<div class="navbar nav_res">
 			<ul id="nav">
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
-				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
+<!-- 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li> -->
 				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
-			 <a href="#" class="pull"></a> 
+			 <a href="#" class="pull"></a>
 	    </div>
 
 	    <div class="navbar-mob">
 			<ul id="nav-mob">
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
-				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
+<!-- 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li> -->
 				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
-			 <a href="#" class="pull"></a> 
+			 <a href="#" class="pull"></a>
 	    </div>
 
 
-	   <%else%> 
+	   <%else%>
           <div id="logo-ar">
 			<%= link_to image_tag("cuneiform-logo.png", :size => "30x30", :alt => 'logo', :class => ""), "#intro-ar" %>
 		  </div>
@@ -97,28 +97,28 @@ $(document).ready(function() {
 			<ul id="nav-ar">
 				<li class="english"><%= link_to "English", :locale=>'en'%></li>
 				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
-				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
+<!-- 				<li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li> -->
 				<li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
 				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
 			</ul>
-			<a href="#" class="pull"></a> 
+			<a href="#" class="pull"></a>
 	        </div>
 
 	          <div class="navbar-ar-mob">
 			<ul id="nav-ar-mob">
 			    <li><%= link_to "من نحن", "#second-ar", :class => "projects" %></li>
-			    <li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li>
+<!-- 			    <li><%= link_to "خدماتنا", "#third-ar", :class => "contact" %></li> -->
 				<li><%= link_to "إتصل بنا", "#fifth-ar", :class => "gallary" %></li>
 				<!-- <li><%= link_to "مشاريعنا", "#fourth-ar", :class => "gallary" %></li>  -->
 				<li class="english"><%= link_to "English", :locale=>'en'%></li>
 			</ul>
-			 <a href="#" class="pull"></a> 
+			 <a href="#" class="pull"></a>
 	    </div>
 
 	    <%end%>
 
 	<% if  I18n.locale == :en %>
-		
+
 			    <div id="intro">
 
 					<%= render partial: "home" %>
@@ -131,11 +131,11 @@ $(document).ready(function() {
 
 				</div> <!--#second-->
 
-				<div id="third">
+			<!-- 	<div id="third">
 
 				   <%= render partial: "services" %>
 
-				</div> <!--#third-->
+				</div>  --><!--#third-->
 
 
 				<div id="fifth">
@@ -158,11 +158,11 @@ $(document).ready(function() {
 
 				</div> <!--#second-->
 
-				<div id="third-ar">
+		<!-- 		<div id="third-ar">
 
 				   <%= render partial: "services" %>
 
-				</div> <!--#third-->
+				</div>  --><!--#third-->
 
 
 				<div id="fifth-ar">
@@ -195,26 +195,26 @@ jQuery(".nav_res-ar-mob").fitText(.4);
 
 // function()
 // {
-//     $(".res").closest('h2').animate({"padding-top": "150px"}); 
+//     $(".res").closest('h2').animate({"padding-top": "150px"});
 // },
 // function()
 // {
-//     $(".res").closest('h2').animate({"padding-top": "50px"}); 
+//     $(".res").closest('h2').animate({"padding-top": "50px"});
 // }
 // );
 
 
 
-$(function() {  
-    var pull        = $('.pull');  
-        menu        = $('.navbar-mob, .navbar-ar-mob ');  
-  
-    $(pull).on('click', function(e) {  
+$(function() {
+    var pull        = $('.pull');
+        menu        = $('.navbar-mob, .navbar-ar-mob ');
+
+    $(pull).on('click', function(e) {
         e.preventDefault();
         menu.slideToggle(50);
-        $(".res").closest('h2').toggleClass('move-para'); 
+        $(".res").closest('h2').toggleClass('move-para');
     });
-});  
+});
 
 
 
@@ -222,7 +222,7 @@ $(function() {
 // var hidden = true;
 // $(".pull").click(function() {
 //   if (hidden) {
-//    $(".res").closest('h2').toggleClass('move-para'); 
+//    $(".res").closest('h2').toggleClass('move-para');
 //   } else {
 //     $(".res").closest('h2').toggleClass('move-paraive')
 //   }
@@ -233,25 +233,25 @@ $(function() {
  //     $('a.pull').animate({
 
  //     menu.slideUp();
- //     $(".res").closest('h2').animate({"padding-top": "100px"}); 
-	
+ //     $(".res").closest('h2').animate({"padding-top": "100px"});
+
  //    });
 
 
     $('#nav-mob li a, #nav-ar-mob li a').click(function(){
-     $(".res").closest('h2').removeClass('move-para'); 
+     $(".res").closest('h2').removeClass('move-para');
      $('a.pull').removeClass("click");
      menu.slideUp(800);
-	
+
     });
 
 
-$(window).resize(function(){  
-    var w = $(window).width();  
-    if(w > 1000 && menu.is(':hidden')) {  
-        menu.removeAttr('style');  
-    }  
-});   
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 1000 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+});
 
 </script>
 
