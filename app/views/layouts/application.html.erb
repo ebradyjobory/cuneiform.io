@@ -51,8 +51,6 @@ $(document).ready(function() {
   });
 
 });
-
-
 </script>
 
 </head>
@@ -70,7 +68,7 @@ $(document).ready(function() {
 			<ul id="nav">
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
-				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
+				<li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
@@ -81,7 +79,7 @@ $(document).ready(function() {
 			<ul id="nav-mob">
 			    <li><%= link_to "ABOUT", "#second", :class => "projects" %></li>
 				<li><%= link_to "SERVICES", "#third", :class => "contact" %></li>
-				<!-- <li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>  -->
+				<li><%= link_to "WORK", "#fourth", :class => "gallary" %></li>
 				<li><%= link_to "CONTACT", "#fifth", :class => "gallary" %></li>
 				<li class="arabic"><%= link_to "العربية", :locale=>'ar'%></li>
 			</ul>
@@ -119,30 +117,25 @@ $(document).ready(function() {
 
 	<% if  I18n.locale == :en %>
 
-			    <div id="intro">
-
+			<div id="intro">
 					<%= render partial: "home" %>
+		    </div> <!--#intro-->
 
-				</div> <!--#intro-->
-
-				<div id="second">
-
+			<div id="second">
 				    <%= render partial: "about" %>
-
-				</div> <!--#second-->
+			</div> <!--#second-->
 
 			<div id="third">
+				    <%= render partial: "work" %>
+			</div> <!--#second-->
 
+			<div id="fourth">
 				   <%= render partial: "services" %>
+			</div> <!--#third-->
 
-				</div> <!--#third-->
-
-
-				<div id="fifth">
-
+			<div id="fifth">
 					<%= render partial: "contact" %>
-
-				</div>
+			</div>
 
     <%else%>
 
