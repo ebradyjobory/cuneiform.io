@@ -1,0 +1,301 @@
+<!-- 
+<% if  I18n.locale == :en %>
+
+
+  <div id="about">
+    
+    <h2 class="res">We are an <span>Iraqi-American</span> design and development team. Together with our clients we develop websites, web-based applications, and cloud solutions that are accessible on <span>any digital device</span>.</h2>
+
+    <div id="about-column-container">
+      <div class="about-column res_column">
+        <%=image_tag("essam.png", :size => "100x100", :alt => 'Essam') %>
+        <h2 class="res_name">Essam</h2>
+        <h3 class="res">Front and Back-End Development</h3>
+        <p class="res">Former chemist and internal auditor for a multinational corporation. Holds a BSc in Chemistry from the University of Baghdad, an MBA from the American University of Iraq, and an MSc in International Economics &amp; Finance from Valparaiso University in the US.</p>
+      </div>
+      <div class="about-column res_column">
+        <%=image_tag("tim.png", :size => "100x100", :alt => 'Tim') %>
+          <h2 class="res_name">Tim</h2>
+          <h3 class="res">Web Design and Cloud Solutions</h3>
+          <p class="res">Former management consultant for one of the world's largest consulting firms where he led the value analysis for health insurance clients on customer experience, front office strategy, and Obamacare reform projects. Over four years of experience working with Iraqi companies.</p>
+       </div>
+    </div>
+
+  </div>
+
+<%else%>
+
+  <div id="about-ar">
+    
+    <h2 class="res">نحن فريق <span>عراقي-أمريكي</span> متخصص في تصميم و تطوير المواقع الأكترونية. جنبا إلى جنب مع عملائنا نقوم بتطوير المواقع والتطبيقات على شبكة الإنترنت، وحلول السحابة التي يمكن الوصول إليها بواسطة <span>أي جهاز رقمي</span>.</h2>
+
+    <div id="about-column-container-ar">
+      <div class="about-column-ar res_column">
+        <%=image_tag("essam.png", :size => "100x100", :alt => 'Essam') %>
+        <h2 class="res_name">عصام</h2>
+        <h3 class="res">تطوير النهاية الأمامية و الخلفية</h3>
+        <p class="res">كيميائي سابق ومدقق داخلي لشركة كبرى. حاصل على شهادة البكالوريوس في الكيمياء من جامعة بغداد، ماجستير في إدارة الأعمال من الجامعة الأمريكية في العراق، وعلى درجة الماجستير في الاقتصاد الدولي و المحاسبة من جامعة فالبارايسو في الولايات المتحدة.</p>
+      </div>
+      <div class="about-column-ar res_column">
+        <%=image_tag("tim.png", :size => "100x100", :alt => 'Tim') %>
+          <h2 class="res_name">تم</h2>
+          <h3 class="res">تصميم الويب وحلول الغيمة</h3>
+          <p class="res">مستشار سابق لأحدى الشركات الاستشارية الكبرى في العالم حيث قاد تحليل تجربة العملاء في مجال التأمين الصحي، واستراتيجية المكتب الأمامي، ومشاريع إصلاح أوباماكير. أكثر من أربع سنوات من الخبرة في العمل مع الشركات العراقية.</p>
+      </div>
+    </div>
+
+  </div>
+
+<%end%> 
+
+
+ -->
+
+ <!-- 
+<% if  I18n.locale == :en %>
+  <div id="services">
+
+    <h2 class="res">We offer a complete, comprehensive, and high-quality package of services to meet <span>every need</span> of your online presence.</h2>
+
+    <p class="res">Most web development firms charge thousands of dollars for ready-made templates they purchased through a third party. These websites are often clunky and susceptible to security breaches. <span>And they rarely meet your needs.</span></p>
+
+  </div>
+
+  <div id="services-column-container">
+
+    <div class="services-column res_column">
+
+      <h2>Design &amp; Strategy</h2>
+      <ul>
+        <li>website &amp; application design (adaptive, responsive)</li>
+        <li>branding &amp; print design</li>
+        <li>email marketing (MailChimp newsletter campaigns)</li>
+        <li>internet marketing (AdSense, AdWords)
+        <li>SEO &amp; analytics</li>
+      </ul>
+        </div>
+
+    <div class="services-column res_column">
+
+      <h2>Development</h2>
+      <ul>
+        <li>front-end web development (Ruby on Rails, jQuery)</li>
+        <li>back-end web development (MySQL, API integration)</li>
+        <li>web application development</li>
+        <li>shopping / e-commerce integration</li>
+        <li>blog integration</li>
+      </ul>
+    </div>
+
+    <div class="services-column res_column">
+
+      <h2>Content</h2>
+      <ul>
+        <li>full website content creation</li>
+        <li>copywriting</li>
+        <li>translation services</li>
+        <li>marketing campaigns</li>
+      </ul>
+    </div>
+
+    <div class="services-column res_column">
+
+      <h2>Cloud</h2>
+      <ul>
+        <li>customized web hosting (on servers housed in the US)</li>
+        <li>customized enterprise email hosting (Google Apps)</li>
+        <li>collaborative development environments (GitHub, Heroku)</li>
+        <li>domain management</li>
+      </ul>
+    </div>
+  </div>
+
+<%else%>
+
+  <div id="services-ar">
+
+      <h2 class="res">نحن نقدم مجموعة كاملة وشاملة وذات جودة عالية من الخدمات لتلبية<span> كل حاجة </span> ضرورية لتغطية حضوركم على الانترنت.</h2>
+
+    <p class="res">معظم شركات تطوير المواقع الأكترونية في العراق تطلب الآلاف من الدولارات لقوالب جاهزة يتم شراؤها من خلال طرف ثالث. هذه المواقع غالبا ما تكون عرضة للخروقات الأمنية. <span>ونادرا ما تلبي احتياجاتك</span>.</p>
+
+  </div>
+
+  <div id="services-column-container-ar">
+
+
+    <div class="services-column-ar res_column">
+
+      <h2>تطوير</h2>
+      <ul>
+        <li>تطوير الشبكة الأمامية (Ruby on Rails, jQuery)</li>
+        <li>تطوير الشبكة الخلفية (MySQL, API integration)</li>
+        <li>تطوير التطبيقات على شبكة الإنترنت</li>
+        <li>تسوق /التجارة الإلكترونية</li>
+        <li>المدوَّنات</li>
+      </ul>
+    </div>
+    <div class="services-column-ar res_column">
+
+      <h2>تصميم و إستراتيجية </h2>
+      <ul>
+        <li>تصميم المواقع و التطبيقات (التكيف والاستجابة)</li>
+        <li>طباعة وتصميم العلامات التجارية  </li>
+        <li>البريد الإلكتروني والتسويق (حملات النشرة MailChimp)</li>
+        <li>التسويق عبر الانترنت (AdSense، AdWords)</li>
+        <li> تحليلات و SEO</li>
+      </ul>
+    </div>
+
+    <div class="services-column-ar res_column">
+
+      <h2>السحابة</h2>
+      <ul>
+        <li>استضافة المواقع الألكترونية على شبكة الإنترنت (من خلال الولايات المتحدة)</li>
+        <li> استضافة البريد الإلكتروني  (Google Apps)</li>
+        <li>بيئات التطوير التعاوني (Github, Heroku)</li>
+        <li>إدارة نطاقات الأنترنيت</li>
+      </ul>
+    </div>
+
+    <div class="services-column-ar res_column">
+
+      <h2>محتوى</h2>
+      <ul>
+        <li>إنشاء محتوى الموقع بالكامل</li>
+        <li>حقوق الطبع</li>
+        <li>خدمات الترجمة</li>
+        <li>حملات التسويق</li>
+      </ul>
+    </div>
+
+
+  </div>
+
+<%end%>
+
+<!-- 
+<% if  I18n.locale == :en %>
+  <div id="services">
+
+    <h2 class="res">We offer a complete, comprehensive, and high-quality package of services to meet <span>every need</span> of your online presence.</h2>
+
+    <p class="res">Most web development firms charge thousands of dollars for ready-made templates they purchased through a third party. These websites are often clunky and susceptible to security breaches. <span>And they rarely meet your needs.</span></p>
+
+  </div>
+
+  <div id="services-column-container">
+
+    <div class="services-column res_column">
+
+      <h2>Design &amp; Strategy</h2>
+      <ul>
+        <li>website &amp; application design (adaptive, responsive)</li>
+        <li>branding &amp; print design</li>
+        <li>email marketing (MailChimp newsletter campaigns)</li>
+        <li>internet marketing (AdSense, AdWords)
+        <li>SEO &amp; analytics</li>
+      </ul>
+        </div>
+
+    <div class="services-column res_column">
+
+      <h2>Development</h2>
+      <ul>
+        <li>front-end web development (Ruby on Rails, jQuery)</li>
+        <li>back-end web development (MySQL, API integration)</li>
+        <li>web application development</li>
+        <li>shopping / e-commerce integration</li>
+        <li>blog integration</li>
+      </ul>
+    </div>
+
+    <div class="services-column res_column">
+
+      <h2>Content</h2>
+      <ul>
+        <li>full website content creation</li>
+        <li>copywriting</li>
+        <li>translation services</li>
+        <li>marketing campaigns</li>
+      </ul>
+    </div>
+
+    <div class="services-column res_column">
+
+      <h2>Cloud</h2>
+      <ul>
+        <li>customized web hosting (on servers housed in the US)</li>
+        <li>customized enterprise email hosting (Google Apps)</li>
+        <li>collaborative development environments (GitHub, Heroku)</li>
+        <li>domain management</li>
+      </ul>
+    </div>
+  </div>
+
+<%else%>
+
+  <div id="services-ar">
+
+      <h2 class="res">نحن نقدم مجموعة كاملة وشاملة وذات جودة عالية من الخدمات لتلبية<span> كل حاجة </span> ضرورية لتغطية حضوركم على الانترنت.</h2>
+
+    <p class="res">معظم شركات تطوير المواقع الأكترونية في العراق تطلب الآلاف من الدولارات لقوالب جاهزة يتم شراؤها من خلال طرف ثالث. هذه المواقع غالبا ما تكون عرضة للخروقات الأمنية. <span>ونادرا ما تلبي احتياجاتك</span>.</p>
+
+  </div>
+
+  <div id="services-column-container-ar">
+
+
+    <div class="services-column-ar res_column">
+
+      <h2>تطوير</h2>
+      <ul>
+        <li>تطوير الشبكة الأمامية (Ruby on Rails, jQuery)</li>
+        <li>تطوير الشبكة الخلفية (MySQL, API integration)</li>
+        <li>تطوير التطبيقات على شبكة الإنترنت</li>
+        <li>تسوق /التجارة الإلكترونية</li>
+        <li>المدوَّنات</li>
+      </ul>
+    </div>
+    <div class="services-column-ar res_column">
+
+      <h2>تصميم و إستراتيجية </h2>
+      <ul>
+        <li>تصميم المواقع و التطبيقات (التكيف والاستجابة)</li>
+        <li>طباعة وتصميم العلامات التجارية  </li>
+        <li>البريد الإلكتروني والتسويق (حملات النشرة MailChimp)</li>
+        <li>التسويق عبر الانترنت (AdSense، AdWords)</li>
+        <li> تحليلات و SEO</li>
+      </ul>
+    </div>
+
+    <div class="services-column-ar res_column">
+
+      <h2>السحابة</h2>
+      <ul>
+        <li>استضافة المواقع الألكترونية على شبكة الإنترنت (من خلال الولايات المتحدة)</li>
+        <li> استضافة البريد الإلكتروني  (Google Apps)</li>
+        <li>بيئات التطوير التعاوني (Github, Heroku)</li>
+        <li>إدارة نطاقات الأنترنيت</li>
+      </ul>
+    </div>
+
+    <div class="services-column-ar res_column">
+
+      <h2>محتوى</h2>
+      <ul>
+        <li>إنشاء محتوى الموقع بالكامل</li>
+        <li>حقوق الطبع</li>
+        <li>خدمات الترجمة</li>
+        <li>حملات التسويق</li>
+      </ul>
+    </div>
+
+
+  </div>
+
+<%end%>
+
+
+ -->
+
+ -->

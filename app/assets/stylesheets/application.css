@@ -22,6 +22,12 @@ Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
 License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
 */
 
+.home-links {
+	font-size: 0.8em;
+	color: #3498db;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
 
  #wrapper {
     width: 100%;
@@ -749,10 +755,10 @@ padding-top: 200px !important;
 	background: url('background-intro.png') no-repeat center center fixed ;
 	background-size: cover;
 	background-position: 0% 100%;
-	height: 800px;
+	height: auto;
 	margin-left: 0px;
-	margin-top: -20px;
-	padding-bottom: 2%;
+	margin-top: 0px;
+	padding-bottom: 3%;
 }
 
 #second, #second-ar{
@@ -1037,7 +1043,7 @@ ul#nav-ar-mob  {
 
 
 #home h2 {
-	padding-top: 15%;
+	padding-top: 5%;
 	font-size: 1.5em !important;
 }
 
@@ -1146,7 +1152,7 @@ medium Resulutions
 }
 
 #home {
-	padding-top: 4%;
+	padding-top: 2%;
 }
 #home-ar {
 	padding-top: 4%;

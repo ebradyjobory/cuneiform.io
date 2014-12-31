@@ -4,19 +4,26 @@
     <div id="home", class="move">
 
 
-			<h2 class="res">Welcome to Cuneiform.</h2>
+			<h2 class="res">Welcome to Cuneiform. We hack in Ruby and JavaScript.</h2>
 
-			<p class="res_home_p">We bring the <span>best</span> of the web to our clients across the US, Iraq, and Kurdistan Region.</p>
+			<p class="res_home_p"><small>Our Work:</small><br>
+      <%= link_to "Finance.js", "http://financejs.org", :class => "home-links" %><br>
+      <%= link_to "Foretoken", "http://foretoken.cuneiform.io", :class => "home-links" %><br>
+      <%= link_to "Sweet and Lashful", "https://sweetandlashful.com", :class => "home-links" %><br>
+      <%= link_to "RapidNPV", "http://rapidnpv.cuneiform.io", :class => "home-links" %>
+      </p>
+      <p><small>Contact us at <%= link_to "hello@cuneiform.io", "mailto:hello@cuneiform.io", :class => "home-links" %></small>.</p>
+
     </div>
 
 <%else%>
 
-	<div id="home-ar">
+<!-- 	<div id="home-ar">
 
 	        <h2 class="res">أهلا بكم الى كيونيفورم.</h2>
 
 			<p class="res_home_p"> نحن نقدم <span>الأفضل</span> من خدمة المواقع الألكترونية في العراق و كوردستان.</p>
-	</div>
+	</div> -->
 
 
 <%end%>
