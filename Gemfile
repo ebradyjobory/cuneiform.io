@@ -6,6 +6,8 @@ gem 'rails', '4.0.4'
 
 gem 'newrelic_rpm'
 
+gem 'puma'
+
 group :development do
   gem 'sqlite3', '1.3.8'
 end
